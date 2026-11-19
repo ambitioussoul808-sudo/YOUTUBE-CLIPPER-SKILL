@@ -72,4 +72,4 @@
 - **LOG** (50) [update] Twitch exec explains Rockstar collaboration to grow GTA 6 via streamers: https://mein-mmo.de/en/the-money-guy-from-twitch-explains-how-they-collaborate-with-rockstar-to-make-gta-6-successful-through-streamers,1498903/
 
 ## Pulse 2026-11-19 22:25 UTC: 1 new
-- **WATCH** (55) [update] Rockstar TikTok account passes 1M followers: https://opencritic.com/news/16253/rockstar-only-just-made-a-tiktok-account-and-it-already-has-over-1-million-followers
+- **LOG** (45, rescored) [update] Rockstar TikTok account passes 1M followers. False WATCH (undated, old); undated items no longer get a freshness boost: https://opencritic.com/news/16253/rockstar-only-just-made-a-tiktok-account-and-it-already-has-over-1-million-followers
