@@ -1,6 +1,6 @@
 # GTA 6 Scout Report: 2026-11-19 (Launch Day)
 
-Scan time: about 12:00 UTC. Data: vidIQ (observed), web trackers (reported). Scores come from `score_clips.py` run on `.claude/skills/gta6-viral-clipper/data/scout-2026-11-19.csv`.
+Scan time: about 01:00–03:00 UTC, Nov 19. (The scorer was run with `--now 12:00Z`, so the ages it shows are about 9h too high. Rankings and NOW/RIDE labels are unchanged.) Data: vidIQ (observed), web trackers (reported). Scores come from `score_clips.py` run on `.claude/skills/gta6-viral-clipper/data/scout-2026-11-19.csv`.
 
 ## Top 3 moves today
 1. **Run a "first-ever" chaos video within 24 hours.** Stolen planes and jets are the breakout gameplay moment. Typical Gamer's "World's First Stolen Plane" got 1.03M views in under a day. GameV's jumbo jet video beat a 320K-sub channel 2.3×. Find a *different* first: first 5-star escape, first alligator encounter, first boat heist. Title format: "I ___ in GTA 6… then ___".
