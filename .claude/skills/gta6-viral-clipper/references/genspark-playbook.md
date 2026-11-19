@@ -26,7 +26,17 @@ If Genspark ships an API or MCP server later, swap step 2 for a direct call. Che
 | Long-form scripts and voiceover drafts | partial (`compose`) | ✅ | Free chat through Dec 2026 saves vidIQ credits |
 | Thumbnail backgrounds / B-roll images | partial | ✅ AI Image | Free standard images through Dec 2026 |
 | AI video B-roll (intro stings, transitions) | partial | ✅ AI Video (Sora/Veo/Kling) | Costs credits. Use sparingly |
-| Cutting your own VOD into Shorts | ✅ `generate_clips` | | Works on your own footage |
+| Cutting your own VOD into Shorts | ✅ `generate_clips` | ✅ **Clip Genius** | Either one works on your own footage |
+| **Editing a full variant from a brief** (structure, captions, text overlays, music sync, split-screens) | | ✅ **Clip Genius** primary | One prompt per variant (see `clip-genius-prompts-<date>.md`) |
+
+## Clip Genius (production)
+Clip Genius (genspark.ai/clip_genius) edits an uploaded video or URL from one prompt. Use it in **Step 5 (Produce)**. For every clip brief, the skill writes one Clip Genius prompt per variant (A Short, B Long-form, C POV) into `clip-genius-prompts-<date>.md`.
+- Only feed it **your own footage**, or clips from creators who allow clipping. It downloads and analyzes whatever URL you give it, so pasting someone else's VOD is the same as re-uploading it.
+- Prompts must state exact timings, text overlays, crop, music style and the cap on excerpt length. Reviewers call it hit-or-miss, so precision matters.
+- Check every output for stock footage or music Clip Genius may have added.
+
+## Connection status
+Your API key is stored as a network secret for `www.genspark.ai` (header `X-Api-Key`, used by the official `@genspark/cli`). Installing the CLI is waiting on a permission rule. Until then, Clip Genius and Super Agent run through the copy-paste lane.
 
 ## Credit strategy (this is the big win)
 vidIQ: 150 credits a month, and a full scan costs 20. Genspark chat and standard images are reported as **free through Dec 2026**. Video, heavy agent runs and AI calls cost credits. Check your plan.

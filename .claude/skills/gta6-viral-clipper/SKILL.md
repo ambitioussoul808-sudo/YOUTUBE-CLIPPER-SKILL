@@ -70,7 +70,9 @@ Run every brief through `references/rights-and-safety.md`. Every answer must be 
 
 Before publishing, run Genspark P4 (fact check) on every stat in the title or voiceover. Draft scripts with P5, and make thumbnail backgrounds and B-roll with P6/P7 (original art only).
 
-Then hand off: `vidiq_generate_clips` (on the user's own long VOD), `vidiq_generate_thumbnail`, `vidiq_generate_titles`, Canva, or `vidiq_social_post_draft_create` for scheduling.
+**Produce with Genspark Clip Genius:** for each brief, write one Clip Genius prompt per variant into `clip-genius-prompts-<date>.md`, with exact timings, overlays, crop, music and excerpt caps, using `clip-genius-prompts-2026-11-19.md` as the model. The user uploads their footage and runs the prompts.
+
+Other hand-offs: `vidiq_generate_clips` (on the user's own long VOD), `vidiq_generate_thumbnail`, `vidiq_generate_titles`, Canva, or `vidiq_social_post_draft_create` for scheduling.
 
 ## Output standards
 - Lead with the **3 highest-leverage moves for today**, then the detail.
