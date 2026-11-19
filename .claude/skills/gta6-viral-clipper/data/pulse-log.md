@@ -29,3 +29,7 @@
 ## Pulse 2026-11-19 10:25 UTC: 2 new
 - **LOG** (50) [update] GTA 6 console 'Too Early' / licence error fixes guide: https://www.itechguides.com/gta-6-download-and-launch-errors-what-to-check-on-ps5-and-xbox/
 - **LOG** (40) [update] Streams Charts: GTA 6 hub updates hourly launch week; opening-day report pending: https://streamer.guide/blog/streams-charts-gta-6-viewership-hub
+
+## Pulse 2026-11-19 11:25 UTC: 2 new
+- **LOG** (45) [update] GTA VI confirmed single-player at launch; no Online window: https://gameluster.com/?p=126596
+- **LOG** (40) [meme] GTA 6 fan claims he cashed out 401(k) to buy 500 copies (unverified): https://games.gg/news/gta-6-fan-liquidated-401k-500/
