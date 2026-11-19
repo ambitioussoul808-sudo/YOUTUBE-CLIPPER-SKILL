@@ -59,3 +59,7 @@
 
 ## Pulse 2026-11-19 18:25 UTC: 1 new
 - **LOG** (20) [streamer-moment] IShowSpeed GTA 6 plan: first session Nov 18 9PM, ~10h/day, no marathon: https://win.gg/kai-cenat-and-ishowspeed-release-gta-6-trailers/
+
+## Pulse 2026-11-19 19:25 UTC: 2 new
+- **LOG** (0) [update] GTA 6 pre-orders reportedly near 8M ahead of launch (third-party tracking): https://tribune.com.pk/story/2639739/grand-theft-auto-vi-opens-preloads-nine-days-before-launch
+- **LOG** (0) [meme] EarlyGame: 15 GTA 6 easter eggs and hidden details: https://earlygame.com/guides/gaming/gta-6-easter-eggs-hidden-details
