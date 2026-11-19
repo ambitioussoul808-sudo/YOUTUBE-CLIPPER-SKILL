@@ -25,7 +25,7 @@ Guards: call `vidiq_balance` before any Confirm. **Skip the Confirm if the balan
    - **GO-LIVE (≥ 75)** → send a push notification (template below). Run the Confirm scan if the guards allow, write a clip brief and Clip Genius prompt for the moment, then commit and push.
    - **WATCH (55–74)** → log it. If the same topic shows up as WATCH **2 hours in a row**, promote it to GO-LIVE.
    - **LOG** → nothing. It's already in `data/pulse-log.md`.
-5. **Quiet hour** (nothing new): don't notify, don't commit. End the turn in one line.
+5. **Quiet hour** (nothing GO-LIVE): don't notify. Commit only `data/pulse-*` with the message `pulse: <HH:MM> quiet`, then push. The repo's stop hook requires a clean tree, and the committed state keeps duplicate checking intact across container resets. End the turn in one line.
 
 ## Push notification template (GO-LIVE only)
 ```

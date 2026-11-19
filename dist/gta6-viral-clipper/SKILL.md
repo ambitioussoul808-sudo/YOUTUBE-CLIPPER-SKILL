@@ -93,7 +93,7 @@ Build `post-kit/` from `templates/post-kit.md`:
 **Publishing:** check `vidiq_social_account_list`. Only accounts with `canPublish: true` can be drafted with `vidiq_social_post_draft_create`. Show the draft and publish only after the user approves. TikTok privacy, comment and music-confirmation settings and YouTube privacy are **the creator's choice. Ask, never fill them in.**
 
 ## Hourly Pulse and going live first
-The scheduled task fires "run the GTA 6 hourly pulse" every hour. It costs 0 vidIQ credits (WebSearch, plus Genspark when connected). It sends a push notification **only on GO-LIVE**, runs a 10-credit vidIQ confirm at most once a day (only if the balance is ≥ 40), writes a one-moment brief plus Clip Genius prompt, and commits only when something is hot. Quiet hours get a one-line reply and nothing else.
+The scheduled task fires "run the GTA 6 hourly pulse" every hour. It costs 0 vidIQ credits (WebSearch, plus Genspark when connected). It sends a push notification **only on GO-LIVE**, runs a 10-credit vidIQ confirm at most once a day (only if the balance is ≥ 40), writes a one-moment brief plus Clip Genius prompt, and makes one small `pulse:` commit of its state and log every hour (the repo's stop hook requires a clean tree). Quiet hours get no alert and a one-line reply.
 
 ## Output standards
 - Lead with the **3 highest-leverage moves for today**, then the detail. Keep it modular and scannable.
