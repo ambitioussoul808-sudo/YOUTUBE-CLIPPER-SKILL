@@ -67,3 +67,6 @@
 ## Pulse 2026-11-19 20:25 UTC: 2 new
 - **LOG** (5) [update] Take-Two (Nov 9): Rockstar will keep supporting GTA Online; no GTA 6 Online details: https://www.ibtimes.co.uk/rockstar-reveals-gta-6s-huge-new-world-still-hasnt-detailed-what-comes-next-online-players-1831698
 - **LOG** (0) [meme] Fans think GTA 6 recreates Dexter Morgan's Miami apartment: https://www.dexerto.com/gta/gta-6-fans-convinced-they-already-found-a-dexter-easter-egg-in-vice-city-3403612/
+
+## Pulse 2026-11-19 21:25 UTC: 1 new
+- **LOG** (50) [update] Twitch exec explains Rockstar collaboration to grow GTA 6 via streamers: https://mein-mmo.de/en/the-money-guy-from-twitch-explains-how-they-collaborate-with-rockstar-to-make-gta-6-successful-through-streamers,1498903/
