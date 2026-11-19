@@ -37,3 +37,7 @@
 ## Pulse 2026-11-19 12:25 UTC: 2 new
 - **LOG** (50) [drama] GTA 6 physical copies missing download codes (blank grey strip) - LevelUp: https://www.levelup.com/en/news/gta-6-copies-missing-download-codes-players-report-a-concerning-defect-in-the-games-physical-edition/
 - **LOG** (40) [meme] Push Square: 9 GTA 6 easter eggs you missed: https://www.PushSquare.com/features/we-no-longer-accept-cash-stored-in-underwear-and-8-other-gta-6-easter-eggs-you-missed
+
+## Pulse 2026-11-19 13:26 UTC: 2 new
+- **LOG** (40) [update] YouTube 24-hour GTA 6 launch livestream (started midnight ET Nov 19): https://www.ggrecon.com/articles/youtube-gta-6-24-hour-livestream/
+- **LOG** (40) [meme] GTA VI yacht bird-droppings detail divides players: https://gamegeeker.com/news/gta6-yacht-bird-droppings-detail-discovery
