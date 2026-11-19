@@ -1,0 +1,32 @@
+{
+  "_note": "Single source of truth for Intentional Empire visuals. Hex values are starting points. Replace them with your official brand codes and every script and template will follow.",
+  "brand": "Intentional Empire",
+  "parent": "EmPressEmpire / Empower8 LLC",
+  "handle": "@intentionalempire",
+  "colors": {
+    "sovereign_blue": "#13294B",
+    "midnight_ink": "#0B1320",
+    "growth_green": "#1F6F5C",
+    "sage_mist": "#A9C5B4",
+    "crown_gold": "#C9A227",
+    "soft_gold": "#E6CF8B",
+    "ivory": "#F7F3EA",
+    "legacy_burgundy": "#6D1A36"
+  },
+  "colorways": {
+    "blue": { "bg": "sovereign_blue", "text": "ivory", "accent": "crown_gold", "sub": "sage_mist" },
+    "green": { "bg": "growth_green", "text": "ivory", "accent": "soft_gold", "sub": "ivory" },
+    "ivory": { "bg": "ivory", "text": "midnight_ink", "accent": "crown_gold", "sub": "growth_green" },
+    "midnight": { "bg": "midnight_ink", "text": "ivory", "accent": "crown_gold", "sub": "sage_mist" }
+  },
+  "fonts": {
+    "headline": ["/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"],
+    "body": ["/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"],
+    "label": ["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"]
+  },
+  "rules": {
+    "gold_max_canvas_pct": 10,
+    "pin_size": [1000, 1500],
+    "safe_margin_px": 80
+  }
+}
