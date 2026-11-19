@@ -1,6 +1,6 @@
 ---
 name: pinterest-viral-empire
-description: Pinterest trend research and viral-content recreation for the Intentional Empire brand (EmPressEmpire / Empower8). Use when the user asks to find Pinterest trends, research what's going viral on Pinterest, analyze winning pins, "reverse-engineer" or remix viral content for their niche, build a pin pack / content calendar for Pinterest, or create branded pins in the Blue ✦ Green ✦ Gold palette. Also triggers on "pinterest sprint", "trend scout", "viral remix", "pin pack".
+description: Pinterest trend research and viral-content recreation for the Intentional Empire brand (EmPressEmpire / Empower8). Use when the user asks to find Pinterest trends, research what's going viral on Pinterest, analyze winning pins, "reverse-engineer" or remix viral content for their niche, build a pin pack / content calendar for Pinterest, or create branded pins in the Midnight Navy palette with gold, blue and emerald accents. Also triggers on "pinterest sprint", "trend scout", "viral remix", "pin pack".
 ---
 
 # Pinterest Viral Empire
@@ -51,7 +51,7 @@ For each top outlier, fill the **DNA card**:
 Rebuild each DNA card for Intentional Empire:
 1. Keep the **archetype, hook mechanic, emotional trigger and intent**.
 2. Swap the topic to an Intentional Empire pillar, and apply the voice ("defiant healing over toxic positivity", sovereign, nervous-system aware).
-3. Apply the **visual system** in `brand.json` and `brand-kit.md` (blue = authority/calm, green = growth/money, gold = crown and highlight only, max 10% of the canvas).
+3. Apply the **visual system** in `brand.json` and `brand-kit.md` (Midnight Navy ~75% of the page, Deep Sapphire panels, Ivory headlines, Antique Gold *italic accent words*, Emerald Mint for wins, gold 10% of the canvas or less, Alert Red once at most).
 4. Write SEO: a keyword-led title (≤ 100 chars), a 2–3 sentence description with 3–5 natural keywords, a board name and alt text.
 5. Run the **Transformation Test**. Every answer must be YES:
    - Would the original creator fail to recognise their pin in ours?
@@ -70,7 +70,7 @@ Pick the best route available:
   This produces branded PNG text-overlay pins for quick drafts and A/B variants.
 - **Notion**: if the user runs the IntentionalEmpire Content OS, hand the pin pack to the `intentionalempire-content-os` skill to schedule it.
 
-Always produce **3 variants per winning concept**: same idea with a different hook, a different layout and a different color dominance (blue-led, green-led, ivory-led). Pinterest rewards fresh pins.
+Always produce **3 variants per winning concept**: same idea with a different hook, a different layout and a different colorway (`gold`, `sapphire`, `emerald` or `data`). Pinterest rewards fresh pins.
 
 ## Output standards
 - Lead with the 3 highest-leverage moves, then the detail.

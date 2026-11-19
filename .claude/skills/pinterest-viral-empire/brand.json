@@ -1,31 +1,59 @@
 {
-  "_note": "Single source of truth for Intentional Empire visuals. Hex values are starting points. Replace them with your official brand codes and every script and template will follow.",
+  "_note": "Single source of truth for Intentional Empire visuals. Same palette as references/brand-kit.md. Edit here and every script and template follows.",
   "brand": "Intentional Empire",
   "parent": "EmPressEmpire / Empower8 LLC",
   "handle": "@intentionalempire",
   "colors": {
-    "sovereign_blue": "#13294B",
-    "midnight_ink": "#0B1320",
-    "growth_green": "#1F6F5C",
-    "sage_mist": "#A9C5B4",
-    "crown_gold": "#C9A227",
-    "soft_gold": "#E6CF8B",
-    "ivory": "#F7F3EA",
-    "legacy_burgundy": "#6D1A36"
+    "_foundation": "Midnight Navy is the page background (~75% of every page); Deep Sapphire for cards and panels",
+    "midnight_navy": "#070A1A",
+    "deep_sapphire": "#0F1B40",
+    "sapphire_variant_1": "#111726",
+    "sapphire_variant_2": "#0E1733",
+
+    "_text": "Ivory headlines, Mist Blue body, Slate captions",
+    "ivory": "#FAF8F2",
+    "mist_blue": "#C7D0E6",
+    "mist_blue_variant_1": "#C4CDE4",
+    "mist_blue_variant_2": "#C9D2E8",
+    "mist_blue_bright": "#EDF1FB",
+    "slate": "#8A93B0",
+    "slate_dim": "#5B6580",
+
+    "_gold": "Champagne for labels and highlights, Antique for italic accent words, Olive for rules, rings and line art",
+    "champagne_gold": "#ECCD78",
+    "antique_gold": "#E3C062",
+    "olive_gold": "#C1B453",
+
+    "_blue": "Royal for lines and strokes, Sky for accent labels, Cyan for data labels",
+    "royal_blue": "#3287E3",
+    "sky_blue": "#47ABF2",
+    "electric_cyan": "#3BC7EA",
+
+    "_green": "Emerald Mint for the GO verdict and success accents",
+    "emerald_mint": "#3AD0A0",
+    "emerald_mint_light": "#5FE0B6",
+
+    "_status": "Alert Red: use once per piece at most, as a warning marker only",
+    "alert_red": "#E45858"
   },
   "colorways": {
-    "blue": { "bg": "sovereign_blue", "text": "ivory", "accent": "crown_gold", "sub": "sage_mist" },
-    "green": { "bg": "growth_green", "text": "ivory", "accent": "soft_gold", "sub": "ivory" },
-    "ivory": { "bg": "ivory", "text": "midnight_ink", "accent": "crown_gold", "sub": "growth_green" },
-    "midnight": { "bg": "midnight_ink", "text": "ivory", "accent": "crown_gold", "sub": "sage_mist" }
+    "_roles": "bg=page, panel=card behind lists, text=headline, emphasis=*italic accent words*, label=eyebrow and list numbers, body=subhead and bullets, caption=footer, rule=frame, divider and line art",
+    "gold":     { "bg": "midnight_navy", "panel": "deep_sapphire",      "text": "ivory", "emphasis": "antique_gold", "label": "champagne_gold", "body": "mist_blue", "caption": "slate", "rule": "olive_gold" },
+    "sapphire": { "bg": "midnight_navy", "panel": "sapphire_variant_2", "text": "ivory", "emphasis": "antique_gold", "label": "sky_blue",       "body": "mist_blue", "caption": "slate", "rule": "royal_blue" },
+    "emerald":  { "bg": "midnight_navy", "panel": "sapphire_variant_1", "text": "ivory", "emphasis": "emerald_mint", "label": "emerald_mint",   "body": "mist_blue", "caption": "slate", "rule": "olive_gold" },
+    "data":     { "bg": "midnight_navy", "panel": "deep_sapphire",      "text": "ivory", "emphasis": "antique_gold", "label": "electric_cyan",  "body": "mist_blue_bright", "caption": "slate", "rule": "royal_blue" }
   },
   "fonts": {
-    "headline": ["/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"],
-    "body": ["/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"],
-    "label": ["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"]
+    "_note": "Fraunces and Arimo are the design fonts. Liberation Serif stands in for Fraunces and Liberation Sans for Arimo (metric twins, so layouts match). DejaVu Sans Mono sets the labels.",
+    "headline": ["/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"],
+    "emphasis": ["/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf"],
+    "body": ["/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"],
+    "label": ["/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"]
   },
   "rules": {
+    "midnight_min_canvas_pct": 75,
     "gold_max_canvas_pct": 10,
+    "alert_red_max_uses": 1,
     "pin_size": [1000, 1500],
     "safe_margin_px": 80
   }

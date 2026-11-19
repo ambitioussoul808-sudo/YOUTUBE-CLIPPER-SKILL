@@ -6,9 +6,9 @@ Usage:
 
 spec.json is one object or a list of objects:
   {
-    "colorway": "blue" | "green" | "ivory" | "midnight",
+    "colorway": "gold" | "sapphire" | "emerald" | "data",
     "eyebrow":  "ECONOMIC SOVEREIGNTY",            # small label on top (optional)
-    "headline": "Stop Manifesting. Start *Allocating.*",  # *word* = gold emphasis
+    "headline": "Stop Manifesting. Start *Allocating.*",  # *word* = italic accent
     "subhead":  "The money reset nobody taught you",      # optional
     "bullets":  ["Name the leak", "Fund the peace"],      # optional, max ~7
     "footer":   "@intentionalempire",                     # optional (defaults to brand handle)
@@ -28,6 +28,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 BRAND = json.load(open(os.path.join(HERE, "..", "brand.json"), encoding="utf-8"))
 W, H = BRAND["rules"]["pin_size"]
 M = BRAND["rules"]["safe_margin_px"]
+DEFAULT_CW = "gold"
 
 
 def hex_rgb(h):
@@ -93,20 +94,20 @@ def crown_divider(draw, cx, y, color):
 
 
 def render(spec, out_dir):
-    cw = BRAND["colorways"][spec.get("colorway", "blue")]
+    cw = BRAND["colorways"][spec.get("colorway", DEFAULT_CW)]
     C = {k: hex_rgb(BRAND["colors"][v]) for k, v in cw.items()}
     img = Image.new("RGB", (W, H), C["bg"])
     d = ImageDraw.Draw(img)
     max_w = W - 2 * M
 
-    # thin gold frame (keeps gold well under the 10% canvas rule)
-    d.rectangle([M // 2, M // 2, W - M // 2, H - M // 2], outline=C["accent"], width=3)
+    # thin line-art frame (keeps gold well under the 10% canvas rule)
+    d.rectangle([M // 2, M // 2, W - M // 2, H - M // 2], outline=C["rule"], width=2)
 
     y = M + 40
     if spec.get("eyebrow"):
-        f = font("label", 30)
-        t = spec["eyebrow"].upper()
-        d.text(((W - d.textlength(t, font=f)) / 2, y), t, font=f, fill=C["accent"])
+        f = font("label", 28)
+        t = " ".join(spec["eyebrow"].upper())  # letter-spaced mono label
+        d.text(((W - d.textlength(t, font=f)) / 2, y), t, font=f, fill=C["label"])
         y += 70
 
     top = y
@@ -116,39 +117,52 @@ def render(spec, out_dir):
     has_body = bool(spec.get("bullets")) or bool(spec.get("subhead"))
     head_box = 560 if has_body else 900
     hf, lines, size = fit_headline(d, tokens(spec["headline"]), max_w, head_box)
+    ef = font("emphasis", size)
     space = d.textlength(" ", font=hf)
+    fw = lambda w, em: ef if em else hf
     for ln in lines:
-        lw = sum(d.textlength(w, font=hf) for w, _ in ln) + space * (len(ln) - 1)
+        lw = sum(d.textlength(w, font=fw(w, em)) for w, em in ln) + space * (len(ln) - 1)
         x = (W - lw) / 2
-        for w, gold in ln:
-            d.text((x, y), w, font=hf, fill=C["accent"] if gold else C["text"])
-            x += d.textlength(w, font=hf) + space
+        for w, em in ln:
+            d.text((x, y), w, font=fw(w, em), fill=C["emphasis"] if em else C["text"])
+            x += d.textlength(w, font=fw(w, em)) + space
         y += size * 1.15
 
     y += 30
-    crown_divider(d, W // 2, int(y), C["accent"])
+    crown_divider(d, W // 2, int(y), C["rule"])
     y += 50
 
     if spec.get("subhead"):
         f = font("body", 40)
         for ln in wrap_text(d, spec["subhead"], f, max_w - 40):
-            d.text(((W - d.textlength(ln, font=f)) / 2, y), ln, font=f, fill=C["sub"])
+            d.text(((W - d.textlength(ln, font=f)) / 2, y), ln, font=f, fill=C["body"])
             y += 54
         y += 30
 
     bullets = spec.get("bullets") or []
     if bullets:
         f = font("body", 38)
-        for i, b in enumerate(bullets, 1):
-            num = f"{i:02d}"
-            nf = font("label", 38)
-            d.text((M + 30, y), num, font=nf, fill=C["accent"])
-            for j, ln in enumerate(wrap_text(d, b, f, max_w - 150)):
-                d.text((M + 120, y), ln, font=f, fill=C["text"])
+        nf = font("label", 34)
+        wrapped = [wrap_text(d, b, f, max_w - 190) for b in bullets]
+        limit = H - M - 140 - top
+        # measure first so the Deep Sapphire panel sits behind the list
+        kept, h = [], 0
+        for wl in wrapped:
+            step = 50 * len(wl) + 22
+            if y + 36 + h + step > limit:
+                break
+            kept.append(wl)
+            h += step
+        pad = 36
+        d.rounded_rectangle([M, y, W - M, y + h + pad * 2 - 22], radius=18, fill=C["panel"] + (255,))
+        y += pad
+        for i, wl in enumerate(kept, 1):
+            d.text((M + 40, y + 2), f"{i:02d}", font=nf, fill=C["label"])
+            for ln in wl:
+                d.text((M + 130, y), ln, font=f, fill=C["body"])
                 y += 50
             y += 22
-            if y > H - M - 140 - top:
-                break
+        y += pad - 22
 
     content_h = int(y)
     bottom = H - M - 80
@@ -157,11 +171,11 @@ def render(spec, out_dir):
     d = ImageDraw.Draw(img)
 
     footer = spec.get("footer") or BRAND["handle"]
-    f = font("label", 28)
-    d.text(((W - d.textlength(footer, font=f)) / 2, H - M - 30), footer, font=f, fill=C["sub"])
+    f = font("label", 24)
+    d.text(((W - d.textlength(footer, font=f)) / 2, H - M - 30), footer, font=f, fill=C["caption"])
 
     name = spec.get("name") or re.sub(r"[^a-z0-9]+", "-", spec["headline"].lower()).strip("-")[:50]
-    path = os.path.join(out_dir, f"{name}-{spec.get('colorway', 'blue')}.png")
+    path = os.path.join(out_dir, f"{name}-{spec.get('colorway', DEFAULT_CW)}.png")
     img.save(path, optimize=True)
     return path
 
@@ -178,7 +192,7 @@ def main():
     for s in specs:
         if "headline" not in s:
             sys.exit(f"Spec missing 'headline': {s}")
-        cws = list(BRAND["colorways"]) if a.all_colorways else [s.get("colorway", "blue")]
+        cws = [k for k in BRAND["colorways"] if not k.startswith("_")] if a.all_colorways else [s.get("colorway", DEFAULT_CW)]
         for cw in cws:
             print(render({**s, "colorway": cw}, a.out))
 

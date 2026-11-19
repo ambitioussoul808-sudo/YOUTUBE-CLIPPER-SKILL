@@ -7,7 +7,7 @@
 - **Transformed:** {{the new IE idea, POV or framework}}
 
 ### On-pin text
-- **Headline:** {{≤7 words, gold keyword in *asterisks*}}
+- **Headline:** {{≤7 words, italic Antique Gold accent word in *asterisks*}}
 - **Subhead:** {{optional}}
 - **Body / list:** {{bullets if a list or checklist}}
 - **Footer:** {{handle / URL}}
@@ -15,9 +15,9 @@
 ### Variants
 | Variant | Hook | Layout | Colorway |
 |---|---|---|---|
-| A | | | blue |
-| B | | | green |
-| C | | | ivory |
+| A | | | gold |
+| B | | | sapphire |
+| C | | | emerald |
 
 ### SEO
 - **Title (≤100 chars):**
@@ -33,5 +33,5 @@
 
 ### Render spec (for scripts/render_pin.py)
 ```json
-{"colorway": "blue", "eyebrow": "ECONOMIC SOVEREIGNTY", "headline": "Stop Manifesting. Start *Allocating.*", "subhead": "", "bullets": [], "footer": "@intentionalempire"}
+{"colorway": "gold", "eyebrow": "ECONOMIC SOVEREIGNTY", "headline": "Stop Manifesting. Start *Allocating.*", "subhead": "", "bullets": [], "footer": "@intentionalempire"}
 ```

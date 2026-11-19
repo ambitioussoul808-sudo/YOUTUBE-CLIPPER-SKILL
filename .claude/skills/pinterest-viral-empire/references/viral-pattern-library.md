@@ -9,7 +9,7 @@ Each archetype lists **why it spreads**, its **save trigger**, and an **Intentio
 | 3 | **The Contrarian Truth** ("Stop doing X") | Pattern interrupt; triggers identity | Validation | "Stop Manifesting. Start Allocating." |
 | 4 | **Before / After (This vs. That)** | Visual contrast; clear transformation | Aspiration | "Toxic Positivity vs. Defiant Healing" |
 | 5 | **The Identity Call-Out** ("For the woman who…") | Reader feels seen | Belonging | "For the Woman Rebuilding Her Empire After Grief" |
-| 6 | **The Aesthetic Quote** | Mood and shareability | Self-expression | Short gold-keyword quote on blue: "Peace is a profit margin." |
+| 6 | **The Aesthetic Quote** | Mood and shareability | Self-expression | Short quote on Midnight Navy with one italic Antique Gold word: "Peace is a profit margin." |
 | 7 | **The Infographic / Framework** | Authority; "I learned something" | Study later | The Grief vs. UnRest Framework™ visualized in 4 quadrants |
 | 8 | **The Template Peek** (Notion/Canva) | Shows a usable tool → clicks | Want the tool | "My Empire Content OS (Notion)": screenshot plus CTA |
 | 9 | **The Challenge / Plan** ("30-day…") | Commitment and progress | Do it later | "30-Day Economic Sovereignty Challenge" |
@@ -27,7 +27,7 @@ Each archetype lists **why it spreads**, its **save trigger**, and an **Intentio
 
 ## Visual grammar cheat-sheet
 - Headline takes 30–40% of the canvas, readable at 236px wide (thumbnail).
-- One gold keyword per headline.
-- Text-only pins: use a colorway (blue / green / ivory / midnight) with a subtle texture.
-- Photo pins: overlay the headline on a 60–70% opacity brand-color band.
+- One or two *italic Antique Gold* accent words per headline.
+- Text-only pins: use a colorway (`gold` / `sapphire` / `emerald` / `data`) on Midnight Navy.
+- Photo pins: overlay the headline on a 60–70% opacity Midnight Navy or Deep Sapphire band.
 - A branded footer on every pin (handle or URL) protects you when pins get re-shared.

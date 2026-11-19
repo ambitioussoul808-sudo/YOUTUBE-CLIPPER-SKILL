@@ -1,6 +1,6 @@
 # Intentional Empire: Pinterest Viral Engine ✦
 
-A Claude Code **skill + agent** that researches Pinterest trends, decodes why pins go viral, and rebuilds those patterns for Intentional Empire in the brand's Blue ✦ Green ✦ Gold palette.
+A Claude Code **skill + agent** that researches Pinterest trends, decodes why pins go viral, and rebuilds those patterns for Intentional Empire in the brand's Midnight Navy palette with gold, blue and emerald accents.
 
 ![Sample pins](.claude/skills/pinterest-viral-empire/examples-preview.png)
 
