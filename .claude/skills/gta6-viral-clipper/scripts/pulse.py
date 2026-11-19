@@ -14,6 +14,7 @@ Heat (0-100):
   + freshness:   +30 if <1h old, +20 if <3h, +10 if <6h, 0 if <72h, -25 if <7d, -40 older (unknown age = 0)
   + engagement:  +up to 15, log-scaled (10k engagement ~ +15)
   + tier 1 bonus +5
+Undated items are capped at 54 (LOG): freshness must be shown by a date.
 Labels: GO-LIVE >= 75 (act within 60 min), WATCH 55-74, LOG < 55.
 
 Prints JSON: {"new": [...], "go_live": [...], "watch": [...], "seen_total": n}
@@ -53,6 +54,8 @@ def heat(item, now):
         h += min(15, 15 * math.log10(e + 1) / 4)
     if int(item.get("tier", 3) or 3) == 1:
         h += 5
+    if pub is None:
+        h = min(h, 54)  # undated items can't prove freshness: cap at LOG
     return round(max(0, min(h, 100)), 1)
 
 

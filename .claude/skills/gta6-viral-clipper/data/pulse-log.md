@@ -75,5 +75,5 @@
 - **LOG** (45, rescored) [update] Rockstar TikTok account passes 1M followers. False WATCH (undated, old); undated items no longer get a freshness boost: https://opencritic.com/news/16253/rockstar-only-just-made-a-tiktok-account-and-it-already-has-over-1-million-followers
 
 ## Pulse 2026-11-19 23:25 UTC: 2 new
-- **WATCH** (60) [official] Rockstar Support: physical disc copies of GTA 6 to follow in months after launch: https://tribune.com.pk/story/2615222/rockstar-addresses-gta-6-physical-copy-concerns-amid-reports-of-disc-less-release
+- **LOG** (54, rescored) [official] Rockstar Support: physical disc copies of GTA 6 to follow in months after launch. False WATCH (undated, pre-Nov 11); undated items now cap at LOG: https://tribune.com.pk/story/2615222/rockstar-addresses-gta-6-physical-copy-concerns-amid-reports-of-disc-less-release
 - **LOG** (15) [rumor] Beebom claims GTA 6 ~$2B revenue estimate (unsourced): https://beebom.com/a-look-at-the-2025-gaming-world-that-almost-existed-if-gta-6-hadnt-been-delayed-again
