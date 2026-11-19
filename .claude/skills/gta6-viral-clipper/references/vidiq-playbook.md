@@ -19,12 +19,12 @@
 | **Lean scan** (trending short plus rising keywords) | 2 | 10 | ~15 |
 | **Deep dive** (adds 2 transcripts and 1 outlier search) | +3 | +15 | |
 
-On 150 credits a month, you can't scan every 6 hours through launch month. Either upgrade the vidIQ plan for launch month, or run Lean scans and lean on free sources (WebSearch, StreamsCharts, Reddit) between them.
+On 150 credits a month, you can't scan every 6 hours through launch month. **Recommended:** a daily vidIQ Lean scan (10 credits), with Genspark's free research covering the hours in between. If you need more, upgrade vidIQ for launch month only.
 
 ## What vidIQ does NOT cover (fill these gaps)
 | Gap | Fill with |
 |---|---|
 | Live Twitch/Kick viewership and top clips | StreamsCharts, TwitchTracker, the Twitch API (free `clips` endpoint) |
-| Reddit / X / Discord chatter | WebSearch, Reddit search |
-| Official Rockstar announcements | Rockstar Newswire (web-fetch), Google Alerts |
+| Reddit / X / Discord chatter | **Genspark P1** (see `genspark-playbook.md`), WebSearch |
+| Official Rockstar announcements | **Genspark P2**, Rockstar Newswire (web-fetch) |
 | Actually cutting and editing video | vidIQ `generate_clips` / `edit_media` for your own footage, or CapCut / Premiere / ffmpeg |

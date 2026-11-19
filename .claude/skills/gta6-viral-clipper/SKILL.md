@@ -16,6 +16,8 @@ Find the GTA 6 moments that are spreading **right now**, work out *why*, and tur
 | `references/clip-archetypes.md` | 12 proven GTA clip formats with hooks, lengths and examples from the live scout |
 | `references/rights-and-safety.md` | The Rights Gate, Rockstar's video policy, leak rules, platform nudity/violence flags |
 | `references/vidiq-playbook.md` | Which vidIQ tool to call for which question, and how to budget credits |
+| `references/genspark-playbook.md` | **Tool #2.** What Genspark handles (Reddit/X/news research, scripts, AI images and B-roll) and how the handoff lane works |
+| `templates/genspark-prompts.md` | Ready-to-paste Genspark prompts (pulse, official digest, streamer moments, fact check, script, image, video) |
 | `templates/scout-report.md` | Output format for a scan |
 | `templates/clip-brief.md` | Output format for each clip to produce |
 | `scripts/score_clips.py` | Ranks signals by velocity, outlier strength, engagement and freshness. Labels each NOW / RIDE / LATE |
@@ -30,9 +32,11 @@ Find the GTA 6 moments that are spreading **right now**, work out *why*, and tur
 
 ### 2. Scout (all four tiers)
 If you can spawn subagents, hand this step to `gta6-clip-scout` (`.claude/agents/gta6-clip-scout.md`). Otherwise run it inline.
-1. **Tier 1, Official**: Rockstar Newswire, @RockstarGames, Take-Two investor news, patch notes, GTA Online announcements. *These start waves.*
+**Two tools, two jobs:** vidIQ = numbers (YouTube, TikTok, Reels and search). Genspark = everything vidIQ can't see (Reddit, X, news, streamer drama) plus scripts and visuals. Genspark has no API or MCP connector yet, so write `genspark-prompts-<date>.md` from the template for the user to paste, then ingest their saved output from `data/genspark-<date>.md`. Use WebSearch as a fallback when no Genspark output exists.
+
+1. **Tier 1, Official**: Rockstar Newswire, @RockstarGames, Take-Two investor news, patch notes, GTA Online announcements. *These start waves.* → Genspark P2
 2. **Tier 2, Creators**: `vidiq_trending_videos` (titleQuery "GTA 6", sortBy `recentVph`, long and short), streamer coverage via web search (StreamsCharts, TwitchTracker, Kick).
-3. **Tier 3, Community**: `vidiq_instagram_tiktok_outlier_search`, Reddit r/GTA6, X trending, memes.
+3. **Tier 3, Community**: `vidiq_instagram_tiktok_outlier_search` for numbers. Genspark P1 for Reddit, X and memes, and P3 for streamer moments.
 4. **Tier 4, Demand data**: `vidiq_keyword_research` mode `rising`, niche "GTA 6", period `week` (or `day` during launch).
 
 Log every signal to `data/scout-<YYYY-MM-DD>.csv` (header in `score_clips.py`) and run:
@@ -64,10 +68,12 @@ Run every brief through `references/rights-and-safety.md`. Every answer must be 
 4. Is it free of leaked, pirated, or pre-release-stolen material?
 5. Does it avoid unblurred in-game nudity and extreme gore in the thumbnail and first 3 seconds (platform flags)?
 
+Before publishing, run Genspark P4 (fact check) on every stat in the title or voiceover. Draft scripts with P5, and make thumbnail backgrounds and B-roll with P6/P7 (original art only).
+
 Then hand off: `vidiq_generate_clips` (on the user's own long VOD), `vidiq_generate_thumbnail`, `vidiq_generate_titles`, Canva, or `vidiq_social_post_draft_create` for scheduling.
 
 ## Output standards
 - Lead with the **3 highest-leverage moves for today**, then the detail.
 - Every number says where it came from (vidIQ / tracker / article) and whether it's observed or estimated. **Never invent view counts.**
 - Keep it modular and scannable.
-- Note vidIQ credits used and credits left at the end of every scan.
+- Note vidIQ credits used and credits left at the end of every scan, and which Genspark prompts were issued or ingested.

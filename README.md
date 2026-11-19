@@ -36,13 +36,16 @@ python3 .claude/skills/pinterest-viral-empire/scripts/render_pin.py \
 ---
 
 ## GTA 6 Viral Clipper 🎮
+**Tools:** vidIQ (numbers) + Genspark (research beyond YouTube, scripts, visuals).
+
 A skill + scout agent that finds the GTA 6 / Rockstar moments spreading **right now** across 4 tiers (official → creators → community → search demand), scores them, and turns them into clip briefs.
 
 | Path | Role |
 |---|---|
 | `.claude/skills/gta6-viral-clipper/SKILL.md` | The 5-step Heat Loop: Intake → Scout → Decode → Remix → Rights Gate |
 | `.claude/agents/gta6-clip-scout.md` | Research subagent (web + vidIQ) that writes a scored, cited scout report |
-| `.../references/` | Source map, 12 clip archetypes, rights and safety rules, vidIQ playbook and credit budget |
+| `.../references/` | Source map, 12 clip archetypes, rights and safety rules, vidIQ playbook and credit budget, **Genspark playbook** |
+| `.../templates/genspark-prompts.md` | Paste-ready Genspark prompts (community pulse, Rockstar digest, streamer moments, fact check, script, AI image and video) |
 | `.../templates/` | Scout report and clip brief formats |
 | `.../scripts/score_clips.py` | Ranks signals by velocity, outlier strength, engagement and freshness, and labels each NOW / RIDE / LATE |
 | `scout-report-2026-11-19.md` | Launch-day scout report |

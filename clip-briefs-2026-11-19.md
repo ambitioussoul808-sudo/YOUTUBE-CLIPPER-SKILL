@@ -43,7 +43,7 @@ Built from `scout-report-2026-11-19.md`. Three opportunities, three variants eac
 
 ## Variant B: Long-form (10–12 min, 16:9)
 - **Title options:**
-  - `I Got 5 Stars in GTA 6… Then This Happened`
+  - `I Got 5 Stars in GTA 6… Then This Happened` ✅ **vidIQ score 99/100, use this**
   - `GTA 6: I Tried EVERY "World's First" in 24 Hours`
   - `GTA 6 Gameplay: The Police AI Is TERRIFYING`
 - **Thumbnail:** your character mid-chaos, top-left, with a police heli spotlight. Big text: **"5 STARS?!"** Shocked face cam inset in the bottom-right. One bold accent color (red or gold) on the text, nothing else bright. **Blur any nudity.**
@@ -101,7 +101,7 @@ Built from `scout-report-2026-11-19.md`. Three opportunities, three variants eac
 
 ## Variant B: Long-form (12–15 min, 16:9)
 - **Title options:**
-  - `Ranking Every Streamer's GTA 6 Reaction (Brutally Honest)`
+  - `Ranking Every Streamer's GTA 6 Reaction (Brutally Honest)` ✅ **vidIQ score 94/100, use this**
   - `GTA 6 Reactions: Who Had the BEST Launch Moment?`
   - `Kai Cenat, IShowSpeed & More React to GTA 6, Ranked`
 - **Thumbnail:** 3 reaction faces in a tier-list layout (S / A / F rows) with a gold "S" badge. Text: **"WHO WON?"** Use only cropped, credited frames, or recreate the expressions yourself with your own face for zero risk.
@@ -147,7 +147,7 @@ Built from `scout-report-2026-11-19.md`. Three opportunities, three variants eac
 
 ## Variant B: Long-form (10–14 min, 16:9)
 - **Title options:**
-  - `I Drove Across the GTA 6 Map and Timed It vs GTA 5`
+  - `I Drove Across the GTA 6 Map and Timed It vs GTA 5` ✅ **vidIQ score 96/100, use this**
   - `GTA 6 Map vs GTA 5: The REAL Size Difference (Tested)`
   - `GTA 6 Map: Everything You Need to Know (vs GTA 5)`
 - **Thumbnail:** the two maps side by side. GTA 5 is small and greyed out, GTA 6 is big and glowing, with a stopwatch icon. Text: **"TESTED."** A green or gold arrow points to GTA 6.
@@ -177,9 +177,17 @@ Built from `scout-report-2026-11-19.md`. Three opportunities, three variants eac
 
 ## Packaging checklist (all briefs)
 - [ ] Title leads with the keyword (`GTA 6 …`) and is ≤ 60 characters
-- [ ] Score the top 2 titles with `vidiq_score_title` (~5 credits each; you have about 131 left)
+- [x] Lead titles scored with vidIQ: 99 / 94 / 96 (15 credits used, about 116 left)
+- [ ] Before posting, fact-check every stat in the voiceover with Genspark P4 (`genspark-prompts-2026-11-19.md`)
 - [ ] Thumbnail: max 3 words, 1 face, 1 accent color, readable at phone size
 - [ ] First 2 seconds = the payoff moment or the most striking frame
 - [ ] Shorts: post to YouTube Shorts, TikTok and Reels as separate native uploads, not cross-posted watermarked files
 - [ ] Pinned comment asks a debate question ("Which first should I try next?")
 - [ ] Log performance at 2h / 24h / 72h into the next scout CSV so the scorer learns what works for *your* channel
+
+## Thumbnail drafts (Canva)
+| Brief | Draft | Next step |
+|---|---|---|
+| 1 · 5 Stars | https://canva.link/gm2ecf8ihv09gpx | Swap in your own chase screenshot and add your face-cam reaction |
+| 2 · Reaction Ranking | https://canva.link/ik4db8raqzn7goa | Drop credited streamer frames, or your own recreated expressions, into the tier slots |
+| 3 · Map Test | https://canva.link/du6v7bgv557m92m | Optionally replace the background with a Genspark AI image (prompt 6). Keep it original art |
