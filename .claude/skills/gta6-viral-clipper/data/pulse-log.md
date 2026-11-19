@@ -16,3 +16,7 @@
 - **LOG** (30) [meme] GTA 6 preload rush causing internet issues: https://www.dexerto.com/gta/gta-6-is-causing-internet-issues-as-players-rush-to-preload-3427231/
 - **LOG** (30) [meme] Downloading GTA 6 takes some players years, community jokes: https://www.notebookcheck.net/Downloading-GTA-6-Apparently-it-will-take-some-players-years-and-the-community-is-having-a-blast.1447805.0.html
 - note: Kai Cenat topic recurred but no new WATCH-level signal (only pre-launch coverage), so not promoted
+
+## Pulse 2026-11-19 08:25 UTC: 2 new
+- **LOG** (45) [streamer-moment] Streamers clear calendars for GTA 6; DDG makes it his first Kick marathon: https://theloadout.com/kai-cenat-and-ludwig-wont-sleep-when-gta-6-drops
+- **LOG** (40) [update] GTA 6 gameplay reveal hit ~3.97M concurrent viewers (trailer-reveal record): https://www.pcgames.de/GTA-6-Spiel-55239/News/Streaming-Rekord-mit-4-Millionen-Zuschauern-1552403/
