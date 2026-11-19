@@ -10,3 +10,9 @@
 - **WATCH** (55) [streamer-moment] Kai Cenat GTA 6 100% marathon stream underway (started Nov 18 8PM ET): https://win.gg/kai-cenat-reveals-gta-6-marathon/
 - **LOG** (50) [drama] GTA 6 physical copies reportedly arrive with missing or used codes: https://www.dexerto.com/gaming/gta-6-players-furious-as-physical-copies-reportedly-arrive-with-missing-or-already-used-codes-3428334/
 - **LOG** (40) [drama] Sealed-box GTA 6 download code visibility warning goes viral: https://dexerto.com/gta/can-gta-6-download-codes-be-seen-through-sealed-boxes-warning-goes-viral-days-before-launch-3428147
+
+## Pulse 2026-11-19 07:25 UTC: 3 new
+- **LOG** (45) [streamer-moment] Kai Cenat finished five-game GTA marathon ahead of GTA 6: https://beebom.com/kai-cenat-officially-completes-his-massive-gta-marathon-ahead-of-gta-6/
+- **LOG** (30) [meme] GTA 6 preload rush causing internet issues: https://www.dexerto.com/gta/gta-6-is-causing-internet-issues-as-players-rush-to-preload-3427231/
+- **LOG** (30) [meme] Downloading GTA 6 takes some players years, community jokes: https://www.notebookcheck.net/Downloading-GTA-6-Apparently-it-will-take-some-players-years-and-the-community-is-having-a-blast.1447805.0.html
+- note: Kai Cenat topic recurred but no new WATCH-level signal (only pre-launch coverage), so not promoted
