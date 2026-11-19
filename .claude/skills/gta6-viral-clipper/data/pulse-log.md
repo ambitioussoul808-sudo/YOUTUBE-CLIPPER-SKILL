@@ -25,3 +25,7 @@
 - **LOG** (45) [update] GTA 6 update 01.002.001 (Nov 16) - second pre-launch patch, no notes: https://beebom.com/gta-6-patch-notes-updates-tracker/
 - **LOG** (40) [update] Streams Charts GTA 6 viewership hub adds GTA VI to first-week records from Nov 19: https://streamscharts.com/specials/gta6
 - **LOG** (25) [rumor] GTA 6 review embargo reportedly Nov 18 (unconfirmed): https://opencritic.com/news/31478/gta-6-s-first-review-appears-online
+
+## Pulse 2026-11-19 10:25 UTC: 2 new
+- **LOG** (50) [update] GTA 6 console 'Too Early' / licence error fixes guide: https://www.itechguides.com/gta-6-download-and-launch-errors-what-to-check-on-ps5-and-xbox/
+- **LOG** (40) [update] Streams Charts: GTA 6 hub updates hourly launch week; opening-day report pending: https://streamer.guide/blog/streams-charts-gta-6-viewership-hub
