@@ -56,3 +56,6 @@
 ## Pulse 2026-11-19 17:25 UTC: 2 new
 - **LOG** (50) [update] PC-WELT GTA 6 live blog (German) - launch coverage: https://www.pcwelt.de/article/3282351/gta-6-im-pc-welt-live-blog-gta-6-hat-erstes-update-bereits-erhalten.html
 - **LOG** (40) [meme] 'Women come and go': fan allegedly dumps girlfriend before GTA 6 launch (viral joke): https://www.ibtimes.co.uk/gta-6-fan-jokes-leaving-girlfriend-before-release-1830980
+
+## Pulse 2026-11-19 18:25 UTC: 1 new
+- **LOG** (20) [streamer-moment] IShowSpeed GTA 6 plan: first session Nov 18 9PM, ~10h/day, no marathon: https://win.gg/kai-cenat-and-ishowspeed-release-gta-6-trailers/
