@@ -29,7 +29,7 @@
 
 ### Checks
 - Transformation Test: `[ ] unrecognizable to original  [ ] fresh copy  [ ] owned visuals  [ ] IE idea added`
-- Compliance: `[ ] No guarantees  [ ] Educational framing  [ ] Disclaimer  [ ] No affiliated marks  [ ] Original`
+- Compliance: `[ ] No guarantees  [ ] Educational framing  [ ] Disclaimer  [ ] No third-party marks  [ ] Original`
 
 ### Render spec (for scripts/render_pin.py)
 ```json

@@ -1,11 +1,11 @@
 # Compliance Guardrails
 
-The creator is a **licensed financial professional (Primerica agent)**. Any pin about money, insurance, investing, debt or income must pass this check. When unsure, flag it for the user's compliance review instead of publishing.
+Any pin about money, investing, debt or income must pass this check, to keep content trustworthy and platform-safe. When unsure, flag it for the user to review before publishing.
 
 ## Never
 - Promise or imply returns, income amounts, or "guaranteed" results.
 - Recommend a specific security, fund or product as right for "everyone".
-- Use the Primerica name, logo or product names in personal-brand pins unless they are pre-approved materials.
+- Use another company's name, logo or product names in pins without permission.
 - Present testimonials of financial results without the required disclosures.
 - Make medical or therapeutic claims ("cures anxiety", "heals trauma"). Healing content is educational and reflective, not treatment.
 
@@ -22,4 +22,4 @@ The creator is a **licensed financial professional (Primerica agent)**. Any pin 
 - Never claim another creator's framework as yours. Your own frameworks (e.g. Grief vs. UnRest Framework™) are your differentiator.
 
 ## Quick check (attach to every pin)
-`[ ] No guarantees  [ ] Educational framing  [ ] Disclaimer added  [ ] No affiliated brand marks  [ ] Original visuals & copy`
+`[ ] No guarantees  [ ] Educational framing  [ ] Disclaimer added  [ ] No third-party brand marks  [ ] Original visuals & copy`

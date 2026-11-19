@@ -17,7 +17,7 @@ Find what's already winning on Pinterest, work out why it works, and rebuild it 
 | `references/brand-kit.md` | Voice, visual rules and niche pillars for Intentional Empire |
 | `references/research-playbook.md` | Where and how to dig for trends (Pinterest Trends, Predicts, search autocomplete, outlier hunting) |
 | `references/viral-pattern-library.md` | The 12 viral pin archetypes and how to remix each one |
-| `references/compliance.md` | Financial / insurance guardrails (Primerica-licensed creator) |
+| `references/compliance.md` | Content guardrails for money and healing topics, plus originality rules |
 | `templates/trend-brief.md` | Output format for research |
 | `templates/pin-pack.md` | Output format for finished pin concepts |
 | `scripts/score_pins.py` | Ranks observed pins by velocity and outlier score from a CSV |
