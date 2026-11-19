@@ -20,8 +20,13 @@ Find the GTA 6 moments that are spreading **right now**, work out *why*, and tur
 | `templates/genspark-prompts.md` | Ready-to-paste Genspark prompts (pulse, official digest, streamer moments, fact check, script, image, video) |
 | `templates/scout-report.md` | Output format for a scan |
 | `templates/clip-brief.md` | Output format for each clip to produce |
+| `references/hourly-pulse.md` | **Hourly Pulse**: a free hourly scan that flags GO-LIVE moments, with a budget-guarded vidIQ confirm and a 60-minute go-live playbook |
+| `scripts/pulse.py` | Removes duplicate hourly signals, scores their heat and labels each GO-LIVE / WATCH / LOG. Keeps state in `data/pulse-state.json` and logs to `data/pulse-log.md` |
 | `scripts/score_clips.py` | Ranks signals by velocity, outlier strength, engagement and freshness. Labels each NOW / RIDE / LATE |
 | `data/` | Raw scout CSVs (one per scan, dated) |
+
+## Hourly Pulse (runs on a schedule)
+When triggered with "run the GTA 6 hourly pulse", follow `references/hourly-pulse.md` exactly. It costs 0 vidIQ credits by default, sends a push notification only on GO-LIVE, and commits only when something new is hot.
 
 ## Workflow: the 5-step Heat Loop
 
