@@ -21,7 +21,7 @@
 
 ### SEO
 - **Title (≤100 chars):**
-- **Description (2–3 sentences, 3–5 keywords, disclaimer if financial):**
+- **Description (2–3 sentences, 3–5 keywords; closing disclaimer only if it gives specific financial steps or covers crisis-level topics):**
 - **Keywords:**
 - **Board:**
 - **Alt text:**
@@ -29,7 +29,7 @@
 
 ### Checks
 - Transformation Test: `[ ] unrecognizable to original  [ ] fresh copy  [ ] owned visuals  [ ] IE idea added`
-- Compliance: `[ ] No guarantees  [ ] Educational framing  [ ] Disclaimer  [ ] No third-party marks  [ ] Original`
+- Guardrails: `[ ] No guarantees  [ ] No medical claims  [ ] Safe-by-framing copy  [ ] Disclaimer only if specific advice  [ ] No third-party marks  [ ] Original`
 
 ### Render spec (for scripts/render_pin.py)
 ```json
