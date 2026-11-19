@@ -63,3 +63,7 @@
 ## Pulse 2026-11-19 19:25 UTC: 2 new
 - **LOG** (0) [update] GTA 6 pre-orders reportedly near 8M ahead of launch (third-party tracking): https://tribune.com.pk/story/2639739/grand-theft-auto-vi-opens-preloads-nine-days-before-launch
 - **LOG** (0) [meme] EarlyGame: 15 GTA 6 easter eggs and hidden details: https://earlygame.com/guides/gaming/gta-6-easter-eggs-hidden-details
+
+## Pulse 2026-11-19 20:25 UTC: 2 new
+- **LOG** (5) [update] Take-Two (Nov 9): Rockstar will keep supporting GTA Online; no GTA 6 Online details: https://www.ibtimes.co.uk/rockstar-reveals-gta-6s-huge-new-world-still-hasnt-detailed-what-comes-next-online-players-1831698
+- **LOG** (0) [meme] Fans think GTA 6 recreates Dexter Morgan's Miami apartment: https://www.dexerto.com/gta/gta-6-fans-convinced-they-already-found-a-dexter-easter-egg-in-vice-city-3403612/
