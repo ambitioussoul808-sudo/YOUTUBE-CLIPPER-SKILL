@@ -11,7 +11,7 @@ items.json is a list of objects gathered this hour:
 
 Heat (0-100):
   base by kind:  official 55, first-ever 50, streamer-moment 45, drama 40, update 40, meme 30, rumor 15
-  + freshness:   +30 if <1h old, +20 if <3h, +10 if <6h, 0 otherwise (unknown age = +10)
+  + freshness:   +30 if <1h old, +20 if <3h, +10 if <6h, 0 if <72h, -25 if <7d, -40 older (unknown age = +10)
   + engagement:  +up to 15, log-scaled (10k engagement ~ +15)
   + tier 1 bonus +5
 Labels: GO-LIVE >= 75 (act within 60 min), WATCH 55-74, LOG < 55.
@@ -47,13 +47,13 @@ def heat(item, now):
         h += 10
     else:
         age = (now - pub).total_seconds() / 3600
-        h += 30 if age < 1 else 20 if age < 3 else 10 if age < 6 else 0
+        h += 30 if age < 1 else 20 if age < 3 else 10 if age < 6 else 0 if age < 72 else -25 if age < 168 else -40
     e = item.get("engagement")
     if isinstance(e, (int, float)) and e > 0:
         h += min(15, 15 * math.log10(e + 1) / 4)
     if int(item.get("tier", 3) or 3) == 1:
         h += 5
-    return round(min(h, 100), 1)
+    return round(max(0, min(h, 100)), 1)
 
 
 def main():
