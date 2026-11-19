@@ -52,3 +52,7 @@
 ## Pulse 2026-11-19 16:25 UTC: 2 new
 - **LOG** (50) [drama] Buyers of physical GTA 6 editions report missing redemption codes; Best Buy refund refusal claim: https://arynews.tv/buyers-of-physical-gta-6-editions-report-missing-digital-redemption-codes
 - **LOG** (40) [meme] Creators detail random GTA 6 events that surprised developers: https://www.gtaboom.com/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers-e8e9
+
+## Pulse 2026-11-19 17:25 UTC: 2 new
+- **LOG** (50) [update] PC-WELT GTA 6 live blog (German) - launch coverage: https://www.pcwelt.de/article/3282351/gta-6-im-pc-welt-live-blog-gta-6-hat-erstes-update-bereits-erhalten.html
+- **LOG** (40) [meme] 'Women come and go': fan allegedly dumps girlfriend before GTA 6 launch (viral joke): https://www.ibtimes.co.uk/gta-6-fan-jokes-leaving-girlfriend-before-release-1830980
