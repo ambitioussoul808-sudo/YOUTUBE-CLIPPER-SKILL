@@ -48,3 +48,7 @@
 
 ## Pulse 2026-11-19 15:24 UTC: 1 new
 - **LOG** (0) [drama] xQc forced by Twitch to take down GTA 6 reaction VOD: https://www.dexerto.com/gaming/xqc-furious-after-being-forced-to-take-down-gta-6-vod-by-twitch-3403752/
+
+## Pulse 2026-11-19 16:25 UTC: 2 new
+- **LOG** (50) [drama] Buyers of physical GTA 6 editions report missing redemption codes; Best Buy refund refusal claim: https://arynews.tv/buyers-of-physical-gta-6-editions-report-missing-digital-redemption-codes
+- **LOG** (40) [meme] Creators detail random GTA 6 events that surprised developers: https://www.gtaboom.com/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers-e8e9
