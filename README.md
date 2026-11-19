@@ -52,6 +52,10 @@ A skill + scout agent that finds the GTA 6 / Rockstar moments spreading **right 
 | `samples/` | Two stock-footage sample Shorts plus credits |
 | `scout-report-2026-11-19.md` | Launch-day scout report |
 
+**Install anywhere:**
+- *Claude Code:* open this repo. The skill and agent load from `.claude/`.
+- *Claude.ai:* upload `dist/gta6-viral-clipper.zip` under Settings → Capabilities → Skills. The scout agent's instructions are included in `agents/` for reference.
+
 Say: "Run a GTA sprint", "Launch-day scan", or "Turn #1 from the scout report into clip briefs".
 
 ```bash
