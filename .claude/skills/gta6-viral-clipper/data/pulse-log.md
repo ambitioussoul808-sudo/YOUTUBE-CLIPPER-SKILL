@@ -33,3 +33,7 @@
 ## Pulse 2026-11-19 11:25 UTC: 2 new
 - **LOG** (45) [update] GTA VI confirmed single-player at launch; no Online window: https://gameluster.com/?p=126596
 - **LOG** (40) [meme] GTA 6 fan claims he cashed out 401(k) to buy 500 copies (unverified): https://games.gg/news/gta-6-fan-liquidated-401k-500/
+
+## Pulse 2026-11-19 12:25 UTC: 2 new
+- **LOG** (50) [drama] GTA 6 physical copies missing download codes (blank grey strip) - LevelUp: https://www.levelup.com/en/news/gta-6-copies-missing-download-codes-players-report-a-concerning-defect-in-the-games-physical-edition/
+- **LOG** (40) [meme] Push Square: 9 GTA 6 easter eggs you missed: https://www.PushSquare.com/features/we-no-longer-accept-cash-stored-in-underwear-and-8-other-gta-6-easter-eggs-you-missed
