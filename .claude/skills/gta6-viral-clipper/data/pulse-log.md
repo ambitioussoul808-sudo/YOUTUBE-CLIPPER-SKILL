@@ -41,3 +41,7 @@
 ## Pulse 2026-11-19 13:26 UTC: 2 new
 - **LOG** (40) [update] YouTube 24-hour GTA 6 launch livestream (started midnight ET Nov 19): https://www.ggrecon.com/articles/youtube-gta-6-24-hour-livestream/
 - **LOG** (40) [meme] GTA VI yacht bird-droppings detail divides players: https://gamegeeker.com/news/gta6-yacht-bird-droppings-detail-discovery
+
+## Pulse 2026-11-19 14:25 UTC: 2 new
+- **WATCH** (60) [official] GTA 6 launch trailer shadow-dropped Oct 15: https://www.dexerto.com/gta/gta-6-launch-trailer-finally-released-with-another-look-at-missions-3279076/
+- **LOG** (40) [meme] GTA 6 briefly listed at £0.16 on UK PlayStation Store (glitch): https://gtaintel.com/news/gta-6-listed-16p-playstation-store-glitch
