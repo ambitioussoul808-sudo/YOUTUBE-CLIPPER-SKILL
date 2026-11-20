@@ -152,3 +152,7 @@
 
 ## Pulse 2026-11-20 18:25 UTC: 1 new
 - ▶ **USE FIRST** **30/100** [LOG] Fans notice GTA 6 may have discreetly advanced driving AI (meme · undated): https://gameranx.com/updates/id/562433/article/fans-noticed-gta-6-might-have-discreetly-advanced-driving-ai/
+
+## Pulse 2026-11-20 19:25 UTC: 2 new
+- ▶ **USE FIRST** **45/100** [LOG] N3on reportedly paid $1.4M to 303 clippers in five weeks (Business Insider via win.gg) (streamer-moment · undated): https://win.gg/n3on-livestreams-movie-red-carpet-after-gta-6-cosplay/
+- 2. **40/100** [LOG] Dexerto: new GTA 6 wanted-system upgrades spotted (update · undated): https://dexerto.com/gta/new-gta-6-wanted-system-upgrades-discovered-hiding-in-plain-sight-3038080
