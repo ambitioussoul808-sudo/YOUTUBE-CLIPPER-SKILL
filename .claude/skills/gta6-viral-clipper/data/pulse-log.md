@@ -80,3 +80,6 @@
 
 ## Pulse 2026-11-20 00:25 UTC: 1 new
 - **LOG** (0) [rumor] Piper Sandler projects GTA 6 could surpass 45M launch sales: https://www.notices.mce.ca.gov/2026/06/gta-6-projected-to-break-biggest-game-launch-record-4-times-over/
+
+## Pulse 2026-11-20 01:25 UTC: 1 new
+- **LOG** (15) [rumor] Analysts say GTA 6 needs 25M day-one sales to meet expectations: https://tech4gamers.com/gta-6-25-million-copies/
