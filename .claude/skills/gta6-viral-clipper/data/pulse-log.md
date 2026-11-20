@@ -102,3 +102,9 @@
 ## Pulse 2026-11-20 07:25 UTC: 2 new
 - **LOG** (20) [official] 'Only in Dade' GTA 6 Vice City clip fools fans into thinking it's real Miami; Rockstar reshares: https://www.dexerto.com/gta/new-gta-6-gameplay-is-so-realistic-fans-cant-believe-its-not-real-life-3427610/
 - **LOG** (0) [rumor] Report: GTA 6 60fps performance patch in development: https://www.notebookcheck.net/GTA-6-performance-patch-reportedly-in-development-for-60-fps-on-PS5-and-Xbox.1385322.0.html
+
+## Pulse 2026-11-20 08:25 UTC: 4 new
+- **WATCH** (60) [official] Sam Houser issues rare launch statement for GTA 6: https://games.gg/news/gta-6-sam-houser-launch-statement/
+- **LOG** (40) [update] GTA 6 surpasses League of Legends (3.11M) as most popular Twitch category ever: https://insider-gaming.com/gta-6-streaming-launch-record/
+- **LOG** (40) [drama] PlayStation users report access issues hours before GTA VI launch (Newsweek): https://newsweek.com/playstation-users-report-access-issues-hours-before-gta-vi-launch-12736310
+- **LOG** (30) [meme] New Zealand players flood X with first GTA 6 driving clips; 99 Metacritic claim: https://gulfnews.com/technology/gaming/gta-6-early-reviews-set-internet-alight-first-driving-clips-99-metacritic-claim-fuel-unprecedented-hype-1.500752451
