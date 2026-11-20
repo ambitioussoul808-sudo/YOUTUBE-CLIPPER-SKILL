@@ -168,3 +168,8 @@
 ## Pulse 2026-11-20 22:25 UTC: 2 new
 - ▶ **USE FIRST** **40/100** [LOG] PSN down and outages affecting gamers on November 18, the eve of GTA 6's release (drama · 52h old): https://mp1st.com/?p=318535
 - 2. **40/100** [LOG] Sony and Rockstar gradually roll out GTA 6 day-one patch to PS5 users (update · undated): https://rockstarintel.com/?p=44478
+
+## Pulse 2026-11-20 23:25 UTC: 3 new
+- ▶ **USE FIRST** **45/100** [LOG] GTA 6 breaks streaming record with 6.38 million viewers (streamer-moment · 41h old): https://esports.gg/news/grand-theft-auto-6/gta-6-breaks-streaming-record-with-6-38-million-viewers/
+- 2. **45/100** [LOG] GTA 6 just set a streaming record with over 6 million peak viewers at launch (streamer-moment · 41h old): https://www.gtaboom.com/gta-6-just-set-a-streaming-record-with-over-6-million-peak-viewers-at-launch-0dd9
+- 3. **30/100** [LOG] GTA 6 fans discover a secret message in the expensive edition: Rockstar mocks its own audience (meme · undated): https://mein-mmo.de/en/gta-6-fans-discover-a-secret-message-in-the-expensive-edition-of-the-game-rockstar-mocks-its-own-audience,1576586/
