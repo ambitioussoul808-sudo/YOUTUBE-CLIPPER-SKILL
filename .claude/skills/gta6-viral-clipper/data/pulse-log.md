@@ -83,3 +83,6 @@
 
 ## Pulse 2026-11-20 01:25 UTC: 1 new
 - **LOG** (15) [rumor] Analysts say GTA 6 needs 25M day-one sales to meet expectations: https://tech4gamers.com/gta-6-25-million-copies/
+
+## Pulse 2026-11-20 02:25 UTC: 1 new
+- **LOG** (15) [rumor] GTA 6 shows 4.88/5 from 183 user ratings in PSN backend (unverified, pre-embargo): https://tech4gamers.com/?p=368882
