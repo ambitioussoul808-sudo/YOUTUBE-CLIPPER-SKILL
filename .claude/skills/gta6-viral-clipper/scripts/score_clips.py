@@ -17,12 +17,18 @@ Scoring (0-100, relative within the file):
   freshness  = 1 / (1 + hours/24)                          -> clip windows close fast
   score = 40% velocity + 25% outlier + 20% engagement + 15% freshness (percentile ranks)
 
+Output: a bullet-point digest (highest virality first, top = USE FIRST, duplicates merged).
+  --table for the old wide table, --json for machine output.
+
 Window label:
   NOW    (< 24h old and top-third velocity)  - clip/respond today
   RIDE   (< 72h old)                         - still worth a remix
   LATE   (older)                             - use for pattern only
 """
-import argparse, csv, json, sys
+import argparse, csv, json, os, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from dedupe import merge_duplicates, render_digest  # noqa: E402
 from datetime import datetime, timezone
 
 
@@ -85,12 +91,16 @@ def main():
     ap.add_argument("--top", type=int, default=20)
     ap.add_argument("--now", help="ISO timestamp to measure age from (default: current UTC time)")
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--table", action="store_true", help="print the old wide table instead of the digest")
     a = ap.parse_args()
 
     now = parse_dt(a.now) if a.now else datetime.now(timezone.utc)
     rows = load(a.path)
     if not rows:
         sys.exit("No rows found.")
+    n_in = len(rows)
+    rows = merge_duplicates(rows, use_titles=False)  # same video/story via different URLs counts once
+    dupes = n_in - len(rows)
 
     vel, outl, eng, fresh, ages = [], [], [], [], []
     for r in rows:
@@ -130,15 +140,29 @@ def main():
 
     scored.sort(key=lambda x: x["score"], reverse=True)
     top = scored[: a.top]
+    for s_ in scored:
+        s_.pop("_canon", None)
     if a.json:
         print(json.dumps(top, indent=2, default=str))
         return
-    print(f"{'#':>2}  {'score':>5}  {'win':<4}  {'age_h':>5}  {'vph':>8}  {'outl':>5}  {'eng':>6}  creator / title")
-    for i, s in enumerate(top, 1):
-        print(f"{i:>2}  {s['score']:>5}  {s['window']:<4}  {s['age_h'] or '-':>5}  "
-              f"{s['vph_calc'] or '-':>8}  {s['outlier_x'] or '-':>5}  {s['engagement'] or '-':>6}  "
-              f"{s.get('creator','')[:22]} | {s.get('title','')[:60]}")
-
+    if a.table:
+        print(f"{'#':>2}  {'score':>5}  {'win':<4}  {'age_h':>5}  {'vph':>8}  {'outl':>5}  {'eng':>6}  creator / title")
+        for i, s_ in enumerate(top, 1):
+            print(f"{i:>2}  {s_['score']:>5}  {s_['window']:<4}  {s_['age_h'] or '-':>5}  "
+                  f"{s_['vph_calc'] or '-':>8}  {s_['outlier_x'] or '-':>5}  {s_['engagement'] or '-':>6}  "
+                  f"{s_.get('creator','')[:22]} | {s_.get('title','')[:60]}")
+        return
+    for s_ in top:
+        bits = [s_.get("creator", "")]
+        if s_.get("vph_calc"):
+            bits.append(f"{s_['vph_calc']:,} views/h")
+        if s_.get("outlier_x") and s_["outlier_x"] >= 1.5:
+            bits.append(f"{s_['outlier_x']}x subs")
+        if s_.get("age_h"):
+            bits.append(f"{s_['age_h']:.0f}h old")
+        s_["why"] = " · ".join(b for b in bits if b)
+    print(render_digest(top, "GTA 6 Scout digest (virality score)", score_key="score", label_key="window",
+                        stamp=f"{len(top)} findings, {dupes} duplicate(s) removed"))
 
 if __name__ == "__main__":
     main()

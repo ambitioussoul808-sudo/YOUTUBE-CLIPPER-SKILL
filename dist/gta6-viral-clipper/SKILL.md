@@ -33,8 +33,9 @@ Find the GTA 6 moments spreading **right now**, work out *why*, and turn them in
 | `templates/clip-genius-prompts.md` | One Clip Genius edit prompt per variant |
 | `templates/genspark-prompts.md` | Research, fact-check, script, image and video prompts |
 | `templates/post-kit.md` | Ready-to-post package for YouTube, Instagram and TikTok |
-| `scripts/score_clips.py` | Ranks scout signals and labels each NOW / RIDE / LATE |
-| `scripts/pulse.py` | Hourly dedupe and heat score, labels each GO-LIVE / WATCH / LOG |
+| `scripts/score_clips.py` | Ranks scout signals, removes duplicate videos (same ID via any URL), prints a ranked digest and labels each NOW / RIDE / LATE |
+| `scripts/pulse.py` | Hourly dedupe and virality score; prints a ranked digest (USE FIRST at the top) and labels each GO-LIVE / WATCH / LOG |
+| `scripts/dedupe.py` | Shared canonical-URL and near-duplicate logic: one video or story = one finding |
 | `data/` | Scout CSVs, pulse state and log, Genspark outputs |
 
 ## Modes (pick from the request)
@@ -96,6 +97,12 @@ Build `post-kit/` from `templates/post-kit.md`:
 The scheduled task fires "run the GTA 6 hourly pulse" every hour. It costs 0 vidIQ credits (WebSearch, plus Genspark when connected). It sends a push notification **only on GO-LIVE**, runs a 10-credit vidIQ confirm at most once a day (only if the balance is ≥ 40), writes a one-moment brief plus Clip Genius prompt, and makes one small `pulse:` commit of its state and log every hour (the repo's stop hook requires a clean tree). Quiet hours get no alert and a one-line reply.
 
 ## Output standards
+- **Every scan ends with a findings digest** (hourly pulse and full scout alike):
+  - A bullet list of new findings, highest **virality score** first.
+  - The top item is marked **▶ USE FIRST**, with one line on what to make from it.
+  - Each bullet has its score, label, a one-line reason and **one** link.
+  - **Never** list the same video or story twice. URL variants and multi-outlet coverage are merged ("+N more outlets"), and findings already reported in earlier scans are left out.
+  - Use the script's digest output as-is (`pulse.py` / `score_clips.py`). Don't hand-build rankings.
 - Lead with the **3 highest-leverage moves for today**, then the detail. Keep it modular and scannable.
 - Every number says where it came from (vidIQ, tracker, article) and whether it's observed, reported or estimated. **Never invent metrics.** Give ranges when sources conflict.
 - End every scan with vidIQ credits used and left, Genspark prompts issued or ingested, and gaps.

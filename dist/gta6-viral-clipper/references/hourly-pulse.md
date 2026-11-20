@@ -20,12 +20,20 @@ Guards: call `vidiq_balance` before any Confirm. **Skip the Confirm if the balan
    - `GTA 6 patch update servers down` (Tier 1 update or drama)
    - If `www.genspark.ai` works through the CLI: run Genspark prompt P1 (community pulse) for the last 60 minutes.
 2. **Write the items** to `data/pulse-items.json` (schema in `scripts/pulse.py`). Classify each by `kind`: official, first-ever, streamer-moment, drama, update, meme or rumor. **Never include leaks.** A "leak" item is skipped, not classified as a rumor.
-3. **Score and dedupe:** `python3 .claude/skills/gta6-viral-clipper/scripts/pulse.py .claude/skills/gta6-viral-clipper/data/pulse-items.json`
+3. **Score and dedupe:** `python3 .claude/skills/gta6-viral-clipper/scripts/pulse.py .claude/skills/gta6-viral-clipper/data/pulse-items.json`. It prints the **ranked digest** and saves it to `data/pulse-digest-latest.md`. Add `vph` or `engagement` to items when known, because they raise the virality score. Use `--json` only if you need the machine output.
 4. **Act on the label:**
    - **GO-LIVE (≥ 75)** → send a push notification (template below). Run the Confirm scan if the guards allow, write a clip brief and Clip Genius prompt for the moment, then commit and push.
    - **WATCH (55–74)** → log it. If the same topic shows up as WATCH **2 hours in a row**, promote it to GO-LIVE.
    - **LOG** → nothing. It's already in `data/pulse-log.md`.
-5. **Quiet hour** (nothing GO-LIVE): don't notify. Commit only `data/pulse-*` with the message `pulse: <HH:MM> quiet`, then push. The repo's stop hook requires a clean tree, and the committed state keeps duplicate checking intact across container resets. End the turn in one line.
+5. **End every pulse with the digest** (see "Digest reply" below), quiet or not.
+6. **Quiet hour** (nothing GO-LIVE): don't notify. Commit only `data/pulse-*` with the message `pulse: <HH:MM> quiet`, then push. The repo's stop hook requires a clean tree, and the committed state keeps duplicate checking intact across container resets. 
+
+## Digest reply (after every scan)
+Reply with the digest that `pulse.py` printed:
+- One bullet per **new** finding, highest **virality score (0–100)** first.
+- The top bullet is marked **▶ USE FIRST**. Add one short line saying what to make with it (format and hook).
+- Each bullet shows score, label (GO-LIVE / WATCH / LOG), title, the reason for the score, and a single link.
+- **No duplicates:** URL variants and the same story from several outlets appear once ("+N more outlets"), and nothing reported in an earlier scan is repeated. If everything was a repeat, say "Nothing new this scan."
 
 ## Push notification template (GO-LIVE only)
 ```

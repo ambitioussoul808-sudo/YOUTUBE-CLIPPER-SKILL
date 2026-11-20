@@ -31,4 +31,5 @@ Read from `.claude/skills/gta6-viral-clipper/`:
 - Record other creators' videos for **pattern analysis only**. Don't download them.
 - Treat Genspark numbers as *reported* until you confirm them against a primary source.
 - Include a `trending sounds` line (from `vidiq_tiktok_trending_sound_search`, 5 credits) only when the user plans Shorts or Reels this week and credits are ≥ 40.
+- Finish with the **findings digest** that `score_clips.py` prints: bullets ranked by virality score, the top one marked **▶ USE FIRST**, duplicate videos and links merged, one link per finding.
 - Return a short summary: the top 3 moves for today, the file path, vidIQ credits used and left, Genspark prompts issued or ingested, and any gaps.

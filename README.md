@@ -48,7 +48,7 @@ A skill + scout agent that finds the GTA 6 / Rockstar moments spreading **right 
 | `.../templates/genspark-prompts.md` | Paste-ready Genspark prompts (community pulse, Rockstar digest, streamer moments, fact check, script, AI image and video) |
 | `.../templates/` | Scout report and clip brief formats |
 | `.../scripts/score_clips.py` | Ranks signals by velocity, outlier strength, engagement and freshness, and labels each NOW / RIDE / LATE |
-| `.../scripts/pulse.py` + `references/hourly-pulse.md` | **Hourly Pulse**: a free hourly scan, GO-LIVE push alerts and a 60-minute go-live playbook |
+| `.../scripts/pulse.py` + `references/hourly-pulse.md` | **Hourly Pulse**: a free hourly scan, GO-LIVE push alerts and a 60-minute go-live playbook. Every scan ends with a deduplicated digest ranked by virality score, with the top pick marked USE FIRST |
 | `samples/` | Two stock-footage sample Shorts plus credits |
 | `scout-report-2026-11-19.md` | Launch-day scout report |
 
