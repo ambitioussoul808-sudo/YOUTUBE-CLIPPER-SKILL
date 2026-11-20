@@ -86,3 +86,6 @@
 
 ## Pulse 2026-11-20 02:25 UTC: 1 new
 - **LOG** (15) [rumor] GTA 6 shows 4.88/5 from 183 user ratings in PSN backend (unverified, pre-embargo): https://tech4gamers.com/?p=368882
+
+## Pulse 2026-11-20 03:25 UTC: 1 new
+- **LOG** (45) [drama] Rockstar issuing DMCA takedowns on viral AI-generated GTA 6 clips: https://games.gg/news/ai-gta6-slop-millions-views-social/
