@@ -131,3 +131,7 @@
 - **LOG** (45) [streamer-moment] alanzoka had the biggest single GTA 6 Twitch stream (~245K concurrent): https://cut.pro/en/blog/gta-6-twitch-record-alanzoka-viewership-2026
 - **LOG** (40) [update] Kotaku live blog: GTA 6 at 99 Metacritic, '17M+ copies sold so far' (attribution unclear): https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
 - **LOG** (40) [update] GTA 6 known bugs list: floating items, frame dips on PS5 Pro: https://games.gg/grand-theft-auto-vi/guides/gta-6-bugs-list/
+
+## Pulse 2026-11-20 14:25 UTC: 2 new
+- **LOG** (40) [update] Beebom GTA 6 bugs tracker: minor cosmetic pop-ins, nothing game-breaking: https://beebom.com/gta-6-bugs-tracker/
+- **LOG** (15) [rumor] EGW: GTA 6 at ~17.07M copies / $1.65B (Sensor Tower-style estimate, unconfirmed): https://egw.news/gaming/news/38558/rockstar-games-revealed-new-gta-6-screenshots-game-dQA6V-bZ6
