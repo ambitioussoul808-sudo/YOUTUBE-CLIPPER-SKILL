@@ -89,3 +89,6 @@
 
 ## Pulse 2026-11-20 03:25 UTC: 1 new
 - **LOG** (45) [drama] Rockstar issuing DMCA takedowns on viral AI-generated GTA 6 clips: https://games.gg/news/ai-gta6-slop-millions-views-social/
+
+## Pulse 2026-11-20 04:25 UTC: 1 new
+- **LOG** (40) [drama] xQc calls viewers 'stupid' for complaining about GTA 6 price: https://thenerdstash.com/xqc-calls-his-viewers-stupid-for-complaining-about-gta-6-price-while-donating-to-him-i-dont-know-what-is-worse/
