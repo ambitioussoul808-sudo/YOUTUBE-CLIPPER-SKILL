@@ -126,3 +126,8 @@
 
 ## Pulse 2026-11-20 12:25 UTC: 0 new
 - nothing new
+
+## Pulse 2026-11-20 13:25 UTC: 3 new
+- **LOG** (45) [streamer-moment] alanzoka had the biggest single GTA 6 Twitch stream (~245K concurrent): https://cut.pro/en/blog/gta-6-twitch-record-alanzoka-viewership-2026
+- **LOG** (40) [update] Kotaku live blog: GTA 6 at 99 Metacritic, '17M+ copies sold so far' (attribution unclear): https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
+- **LOG** (40) [update] GTA 6 known bugs list: floating items, frame dips on PS5 Pro: https://games.gg/grand-theft-auto-vi/guides/gta-6-bugs-list/
