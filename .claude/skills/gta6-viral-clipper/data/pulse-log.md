@@ -95,3 +95,6 @@
 
 ## Pulse 2026-11-20 05:25 UTC: 1 new
 - **LOG** (40) [drama] Labor group files union-busting claims against Rockstar over 31 firings: https://www.gamesradar.com/gta-6/page/4/
+
+## Pulse 2026-11-20 06:25 UTC: 1 new
+- **LOG** (15) [update] GTA Boom: 'The GTA 6 creator gold rush starts November 19': https://gtaboom.com/the-gta-6-creator-gold-rush-starts-november-19-fc60
