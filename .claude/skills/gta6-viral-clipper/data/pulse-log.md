@@ -98,3 +98,7 @@
 
 ## Pulse 2026-11-20 06:25 UTC: 1 new
 - **LOG** (15) [update] GTA Boom: 'The GTA 6 creator gold rush starts November 19': https://gtaboom.com/the-gta-6-creator-gold-rush-starts-november-19-fc60
+
+## Pulse 2026-11-20 07:25 UTC: 2 new
+- **LOG** (20) [official] 'Only in Dade' GTA 6 Vice City clip fools fans into thinking it's real Miami; Rockstar reshares: https://www.dexerto.com/gta/new-gta-6-gameplay-is-so-realistic-fans-cant-believe-its-not-real-life-3427610/
+- **LOG** (0) [rumor] Report: GTA 6 60fps performance patch in development: https://www.notebookcheck.net/GTA-6-performance-patch-reportedly-in-development-for-60-fps-on-PS5-and-Xbox.1385322.0.html
