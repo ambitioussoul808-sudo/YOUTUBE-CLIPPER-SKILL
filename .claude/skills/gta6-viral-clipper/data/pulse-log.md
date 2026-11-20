@@ -92,3 +92,6 @@
 
 ## Pulse 2026-11-20 04:25 UTC: 1 new
 - **LOG** (40) [drama] xQc calls viewers 'stupid' for complaining about GTA 6 price: https://thenerdstash.com/xqc-calls-his-viewers-stupid-for-complaining-about-gta-6-price-while-donating-to-him-i-dont-know-what-is-worse/
+
+## Pulse 2026-11-20 05:25 UTC: 1 new
+- **LOG** (40) [drama] Labor group files union-busting claims against Rockstar over 31 firings: https://www.gamesradar.com/gta-6/page/4/
