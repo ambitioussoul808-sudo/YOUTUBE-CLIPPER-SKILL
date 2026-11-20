@@ -120,3 +120,6 @@
 - **LOG** (40) [update] VGC: GTA 6 Chapter 1 point-of-no-return warning (mission 'Tourist Trap'): https://www.videogameschronicle.com/guide/gta-6-chapter-1-warning-read-this-before-finishing-chapter-1-of-gta-6/
 - **LOG** (40) [drama] PSN outage hours before GTA 6 launch; gamers revolt (Daily Beast): https://www.thedailybeast.com/gamers-revolt-as-playstation-outage-hits-hours-before-gta-6-release
 - **LOG** (30) [meme] Funniest GTA 6 clips so far: cat mauls carjacker, jet-skiing dogs, bedroom decorating: https://www.windowscentral.com/gaming/gta-6-players-are-ignoring-crime-to-jet-ski-with-dogs-and-redecorate-their-bedrooms-the-funniest-clips-so-far
+
+## Pulse 2026-11-20 11:24 UTC: 1 new
+- **LOG** (45) [streamer-moment] TimTheTatman cackles at GTA 6 'Eager Beaver' and furry PSA: https://esports.gg/news/grand-theft-auto-6/gta-6-eager-beaver-and-furry-psa-leave-timthetatman-cackling/
