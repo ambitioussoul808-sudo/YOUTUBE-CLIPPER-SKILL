@@ -108,3 +108,10 @@
 - **LOG** (40) [update] GTA 6 surpasses League of Legends (3.11M) as most popular Twitch category ever: https://insider-gaming.com/gta-6-streaming-launch-record/
 - **LOG** (40) [drama] PlayStation users report access issues hours before GTA VI launch (Newsweek): https://newsweek.com/playstation-users-report-access-issues-hours-before-gta-vi-launch-12736310
 - **LOG** (30) [meme] New Zealand players flood X with first GTA 6 driving clips; 99 Metacritic claim: https://gulfnews.com/technology/gaming/gta-6-early-reviews-set-internet-alight-first-driving-clips-99-metacritic-claim-fuel-unprecedented-hype-1.500752451
+
+## Pulse 2026-11-20 09:25 UTC: 4 new
+- **WATCH** (60) [official] Sam Houser breaks silence with rare GTA 6 launch statement, thanks players (multi-outlet): https://www.gtaboom.com/rockstar-boss-sam-houser-breaks-his-silence-with-a-rare-gta-6-launch-statement-7782
+- **LOG** (45) [update] PS5 GTA 6 physical download codes are region-locked; Rockstar updates support page: https://wccftech.com/playstation-5-gta-6-download-codes-region-locked-xbox-no-restriction/amp/
+- **LOG** (40) [update] GTA 6 beats Hogwarts Legacy as Twitch's biggest single-player launch: https://games.gg/news/gta-6-twitch-single-player-viewing-record/
+- **LOG** (40) [drama] PSN disruptions reported as GTA 6 launch traffic spikes: https://www.notebookcheck.net/GTA-6-causes-PlayStation-Network-outages.1453653.0.html
+- **GO-LIVE (promoted)**: Sam Houser statement, 2nd WATCH. vidIQ confirm (10 cr) showed it isn't a video wave, so brief pivoted to free-roam randomness (gta 6 free roam +2673%): clip-briefs-2026-11-20-0925.md
