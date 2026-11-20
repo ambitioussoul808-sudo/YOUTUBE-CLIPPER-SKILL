@@ -1,3 +1,3 @@
-### GTA 6 Pulse digest · 2026-11-20 21:24 UTC
-- ▶ **USE FIRST** **40/100** [LOG] Is GTA 6 down? GTA 6 issues explained (update · undated): https://insider-gaming.com/is-grand-theft-auto-6-down-gta-6-issues-explained/
-- 2. **5/100** [LOG] Kick streamer N3on recreates GTA 6 streamer clip from Extended Look (streamer-moment · 82d old): https://khelnow.com/gaming/kick-streamer-neon-recreated-gta-6-streamer-clip-from-extended-look-after-viral-rockstar-reference-202608
+### GTA 6 Pulse digest · 2026-11-20 22:25 UTC
+- ▶ **USE FIRST** **40/100** [LOG] PSN down and outages affecting gamers on November 18, the eve of GTA 6's release (drama · 52h old): https://mp1st.com/?p=318535
+- 2. **40/100** [LOG] Sony and Rockstar gradually roll out GTA 6 day-one patch to PS5 users (update · undated): https://rockstarintel.com/?p=44478
