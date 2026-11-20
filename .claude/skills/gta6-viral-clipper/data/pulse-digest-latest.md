@@ -1,3 +1,3 @@
-### GTA 6 Pulse digest · 2026-11-20 15:25 UTC
-- ▶ **USE FIRST** **15/100** [LOG] Rockstar Intel: new GTA VI update released and not everyone has it (update · 4d old): https://rockstarintel.com/new-gta-vi-update-released-and-not-everyone-has-gotten-it-heres-why/
-- 2. **0/100** [LOG] Influencer's GTA 6 NPC casting claim goes viral (drama · 72d old): https://www.ibtimes.co.uk/influencer-shocked-unexpected-gta6-npc-role-1816891
+### GTA 6 Pulse digest · 2026-11-20 16:25 UTC
+- ▶ **USE FIRST** **40/100** [LOG] PSN license-check fix: enable offline play on PS5 to start GTA 6 during outages (update · 34h old): https://mein-mmo.de/en/psn-down-during-the-gta-6-release-in-live-ticker-everything-about-the-outage-and-the-server-status-on-ps5,1597022/
+- 2. **30/100** [LOG] Notebookcheck: GTA 6 was teased back in 2021 (previously undiscovered) (meme · 30h old): https://www.notebookcheck.com/Zuvor-unentdeckt-So-wurde-GTA-6-schon-2021-angeteasert.1453646.0.html
