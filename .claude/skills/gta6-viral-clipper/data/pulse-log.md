@@ -156,3 +156,7 @@
 ## Pulse 2026-11-20 19:25 UTC: 2 new
 - ▶ **USE FIRST** **45/100** [LOG] N3on reportedly paid $1.4M to 303 clippers in five weeks (Business Insider via win.gg) (streamer-moment · undated): https://win.gg/n3on-livestreams-movie-red-carpet-after-gta-6-cosplay/
 - 2. **40/100** [LOG] Dexerto: new GTA 6 wanted-system upgrades spotted (update · undated): https://dexerto.com/gta/new-gta-6-wanted-system-upgrades-discovered-hiding-in-plain-sight-3038080
+
+## Pulse 2026-11-20 20:25 UTC: 2 new
+- ▶ **USE FIRST** **40/100** [LOG] VGC: GTA 6 'Island Dreams' mission walkthrough (update · 24h old): https://www.videogameschronicle.com/guide/gta-6-island-dreams-walkthrough/
+- 2. **40/100** [LOG] First GTA 6 bugs and rough edges found (Cybersport.ru) (update · undated): https://cybersport.metaratings.ru/news/v-gta-6-nashli-pervye-bagi-i-zametnye-nedorabotki-648998/
