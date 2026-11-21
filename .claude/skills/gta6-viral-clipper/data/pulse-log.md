@@ -303,3 +303,8 @@
 ## Pulse 2026-11-21 21:25 UTC: 2 new
 - ▶ **USE FIRST** **40/100** [LOG] GTA 6 Easter eggs: 44 mysteries hidden by Rockstar with locations (Quero Bolsa) (update · undated): https://querobolsa.com.br/revista/easter-eggs-de-gta-6
 - 2. **15/100** [LOG] GTA 6 unlimited money glitch (Beebom claims tested and working) (rumor · undated): https://beebom.com/gta-6-unlimited-money-glitch/
+
+## Pulse 2026-11-21 22:25 UTC: 3 new
+- ▶ **USE FIRST** **40/100** [LOG] GTA 6 server status guide: all services operational (update · undated): https://timesaver.gg/blog/gta-6-server-status
+- 2. **15/100** [LOG] PlayStation players still report problems as GTA 6 launch day looms (drama · 3d old): https://cybernews.com/tech/playstation-outage-gta-6-release/
+- 3. **15/100** [LOG] PlayStation outage before GTA 6 (Complex) (drama · 3d old): https://www.complex.com/pop-culture/a/bernadette-giacomazzo/playstation-outage-before-gta-6
