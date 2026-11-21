@@ -217,3 +217,9 @@
 - 2. **40/100** [LOG] Report: GTA 6 generated nearly $2B in sales by launch day (update · 41h old): https://80.lv/articles/report-gta-6-generated-nearly-usd2b-in-sales-by-launch-day
 - 3. **40/100** [LOG] GTA 6 sales cross $1.6 billion as PlayStation accounts for 75% of early purchases (update · 61h old): https://www.oneindia.com/international/gta-6-sales-cross-1-6-billion-as-playstation-accounts-for-75-of-early-purchases-8264247.html
 - 4. **40/100** [LOG] Physical copies of GTA 6 are flying off the shelves despite the download code controversy (update · undated): https://techradar.com/gaming/physical-copies-of-gta-6-are-flying-off-the-shelves-despite-the-download-code-controversy
+
+## Pulse 2026-11-21 08:25 UTC: 4 new
+- ▶ **USE FIRST** **40/100** [LOG] GTA 6 gets its own Weekly Famitsu cover as Japan prepares for launch day (update · undated): https://beebom.com/gta-6-famitsu-magazine-article-announced-japan/
+- 2. **30/100** [LOG] GTA 6 is here: Mandy, a jet-skiing dog and 8 more things players are talking about (meme · 22h old): https://gulfnews.com/entertainment/gta-6-is-here-mandy-a-jet-skiing-dog-and-8-more-things-players-are-talking-about-1.500752990
+- 3. **30/100** [LOG] GTA 6 isn't just taking over Vice City. It's taking over offices, marriages, and family vacations (meme · undated): https://cybernews.com/tech/gta-6-taking-over/
+- 4. **15/100** [LOG] GTA 6 gets another pre-launch update on PS5 and Xbox 3 days before release (update · 5d old): https://beebom.com/gta-6-gets-second-pre-launch-update/
