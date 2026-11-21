@@ -268,3 +268,8 @@
 - 4. **45/100** [LOG] GTA 6 first 24 hours on streaming: 7.43M peak viewers and the top 10 streamers (streamer-moment · undated): https://streamer.guide/blog/gta-6-first-24-hours-streaming-top-streamers
 - 5. **40/100** [LOG] GTA 6: where to find Dexter's apartment (guide) (update · undated): https://games.gg/grand-theft-auto-vi/guides/gta-6-where-to-find-dexter-apartment/
 - 6. **30/100** [LOG] GTA 6 NPC gets hit by car, calls lawyer, and player gets a payout for being a witness (meme · undated): https://www.tweaktown.com/news/114772/gta-6-npc-gets-hit-by-car-calls-lawyer-and-player-gets-a-payout-for-being-a-witness/index.html
+
+## Pulse 2026-11-21 15:25 UTC: 3 new
+- ▶ **USE FIRST** **30/100** [LOG] Who is Mandy in GTA 6, when do you meet her, and is she a serial killer? (meme · undated): https://insider-gaming.com/who-is-mandy-gta-6-when-do-you-meet-serial-killer/
+- 2. **15/100** [LOG] The wild GTA 6 theory that connects Rockstar's two biggest franchises (rumor · undated): https://www.denofgeek.com/?p=1009003
+- 3. **15/100** [LOG] GTA 6 Easter eggs list updated with in-game finds (Stealthy Gaming) (update · 3d old): https://stealthygaming.com/?p=37256
