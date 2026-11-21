@@ -173,3 +173,8 @@
 - ▶ **USE FIRST** **45/100** [LOG] GTA 6 breaks streaming record with 6.38 million viewers (streamer-moment · 41h old): https://esports.gg/news/grand-theft-auto-6/gta-6-breaks-streaming-record-with-6-38-million-viewers/
 - 2. **45/100** [LOG] GTA 6 just set a streaming record with over 6 million peak viewers at launch (streamer-moment · 41h old): https://www.gtaboom.com/gta-6-just-set-a-streaming-record-with-over-6-million-peak-viewers-at-launch-0dd9
 - 3. **30/100** [LOG] GTA 6 fans discover a secret message in the expensive edition: Rockstar mocks its own audience (meme · undated): https://mein-mmo.de/en/gta-6-fans-discover-a-secret-message-in-the-expensive-edition-of-the-game-rockstar-mocks-its-own-audience,1576586/
+
+## Pulse 2026-11-21 00:25 UTC: 3 new
+- ▶ **USE FIRST** **55/100** [WATCH] GTA 6 reviews award 99 Metacritic score, topping GTA 4 as Rockstar's top rated (official · 58h old): https://www.notebookcheck.net/GTA-6-reviews-award-99-Metacritic-score-topping-GTA-4-to-become-Rockstar-s-top-rated.1453363.0.html
+- 2. **55/100** [WATCH] GTA 6 is the joint best reviewed game of all time (official · 58h old): https://www.dexerto.com/gta/gta-6-is-the-joint-best-reviewed-game-of-the-all-time-3429300/
+- 3. **45/100** [LOG] Zias and Blou GTA 6 reaction pause in the basement (streamer-moment · undated): https://leveluptalk.com/news/zias-blou-gta-6-reaction-pause-basement/
