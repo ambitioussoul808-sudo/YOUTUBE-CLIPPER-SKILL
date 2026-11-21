@@ -1,4 +1,4 @@
-### GTA 6 Pulse digest · 2026-11-21 18:25 UTC
-- ▶ **USE FIRST** **40/100** [LOG] GTA 6 trophy guide: platinum roadmap, all 55 trophies (hidden: 'Bad Luck, I Guess', 'The Truth Is Out There') (update · undated): https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/
-- 2. **40/100** [LOG] GTA 6 updates and patch notes tracker (Red Bull) (update · undated): https://www.redbull.com/in-en/gta-6-updates-patch-notes
-- 3. **30/100** [LOG] GTA 6 Cool Dog Easter egg: jet-ski dog rescue not guaranteed (meme · 54h old): https://playday.one/2026/11/19/gta-6-cool-dog-easter-egg/
+### GTA 6 Pulse digest · 2026-11-21 19:24 UTC
+- ▶ **USE FIRST** **40/100** [LOG] GTA 6 polar bear attack scene sparks culture-war debate as gamers praise Rockstar's political satire (drama · undated): https://www.ibtimes.co.uk/gta-6-polar-bear-scene-culture-war-debate-1833378
+- 2. **40/100** [LOG] Bad Luck, I Guess trophy (GamerGuides) (update · undated): https://www.gamerguides.com/grand-theft-auto-vi/achievements/20854
+- 3. **40/100** [LOG] GTA 6 launch day live blog (TechRadar) (update · 55h old): https://www.techradar.com/live/news/gta-6-launch-day-november-19
