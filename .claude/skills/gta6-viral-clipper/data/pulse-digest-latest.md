@@ -1,2 +1,5 @@
-### GTA 6 Pulse digest · 2026-11-21 06:25 UTC
-- ▶ **USE FIRST** **30/100** [LOG] GTA 6 includes an in-game joke aimed at impatient fans ('We got X before GTA 6' via Race and Chase) (meme · undated): https://fandomwire.com/gta-6-joke-aimed-at-impatient-fans/
+### GTA 6 Pulse digest · 2026-11-21 07:24 UTC
+- ▶ **USE FIRST** **40/100** [LOG] How much money has GTA 6 made so far? Revenue hits $1.84 billion on release day (Sensor Tower est.) (update · 41h old): https://esports.gg/news/grand-theft-auto-6/how-much-money-has-gta-6-made-so-far-revenue-hits-1-84-billion-on-release-day/
+- 2. **40/100** [LOG] Report: GTA 6 generated nearly $2B in sales by launch day (update · 41h old): https://80.lv/articles/report-gta-6-generated-nearly-usd2b-in-sales-by-launch-day
+- 3. **40/100** [LOG] GTA 6 sales cross $1.6 billion as PlayStation accounts for 75% of early purchases (update · 61h old): https://www.oneindia.com/international/gta-6-sales-cross-1-6-billion-as-playstation-accounts-for-75-of-early-purchases-8264247.html
+- 4. **40/100** [LOG] Physical copies of GTA 6 are flying off the shelves despite the download code controversy (update · undated): https://techradar.com/gaming/physical-copies-of-gta-6-are-flying-off-the-shelves-despite-the-download-code-controversy
