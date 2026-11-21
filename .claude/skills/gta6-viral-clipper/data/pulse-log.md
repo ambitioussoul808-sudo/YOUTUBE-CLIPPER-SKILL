@@ -299,3 +299,7 @@
 
 ## Pulse 2026-11-21 20:24 UTC: 1 new
 - ▶ **USE FIRST** **50/100** [LOG] N3on claims first GTA 6 story finish in about 7 hours; X reacts with skepticism (first-ever · undated): https://www.talkesport.com/news/n3on-first-finish-gta-6-story-7-hours/
+
+## Pulse 2026-11-21 21:25 UTC: 2 new
+- ▶ **USE FIRST** **40/100** [LOG] GTA 6 Easter eggs: 44 mysteries hidden by Rockstar with locations (Quero Bolsa) (update · undated): https://querobolsa.com.br/revista/easter-eggs-de-gta-6
+- 2. **15/100** [LOG] GTA 6 unlimited money glitch (Beebom claims tested and working) (rumor · undated): https://beebom.com/gta-6-unlimited-money-glitch/
