@@ -1,2 +1,3 @@
-### GTA 6 Pulse digest · 2026-11-22 00:25 UTC
-- ▶ **USE FIRST** **30/100** [LOG] GTA 6 Red Dead Redemption Easter egg (games.gg) (meme · undated): https://games.gg/news/gta-6-red-dead-redemption-easter/
+### GTA 6 Pulse digest · 2026-11-22 01:25 UTC
+- ▶ **USE FIRST** **40/100** [LOG] Metacritic removes fake GTA 6 reviews after early ratings reportedly dragged down its score (drama · undated): https://windowsreport.com/?p=1516270
+- 2. **30/100** [LOG] Mysterious GTA 6 character sparks fan frenzy (Daily Times) (meme · undated): https://dailytimes.com.pk/1426117/mysterious-gta-6-character-sparks-fan-frenzy/
