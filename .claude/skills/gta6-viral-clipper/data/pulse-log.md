@@ -311,3 +311,6 @@
 
 ## Pulse 2026-11-21 23:25 UTC: 1 new
 - ▶ **USE FIRST** **50/100** [LOG] GTA 6's hidden secrets connect Rockstar's biggest games in unexpected ways (Jacob's Tavern book, Millport) (first-ever · undated): https://www.analyticsinsight.net/news/gta-6s-hidden-secrets-connect-rockstars-biggest-games-in-unexpected-ways
+
+## Pulse 2026-11-22 00:25 UTC: 1 new
+- ▶ **USE FIRST** **30/100** [LOG] GTA 6 Red Dead Redemption Easter egg (games.gg) (meme · undated): https://games.gg/news/gta-6-red-dead-redemption-easter/
