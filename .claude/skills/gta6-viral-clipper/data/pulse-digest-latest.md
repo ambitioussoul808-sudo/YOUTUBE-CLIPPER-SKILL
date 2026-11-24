@@ -1,2 +1,2 @@
-### GTA 6 Pulse digest · 2026-11-24 10:25 UTC
-- ▶ **USE FIRST** **15/100** [LOG] GTA 6 Online might be closer than we thought (rumor · undated): https://digitaltrends.com/gaming/gta-6-online-might-be-closer-than-we-thought
+### GTA 6 Pulse digest · 2026-11-24 11:25 UTC
+- Nothing new this scan (all results were duplicates of earlier finds).
